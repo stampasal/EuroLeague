@@ -1,0 +1,742 @@
+/* ============================================================
+   FANTASY TEAM v2 — Official-style UI
+   ============================================================ */
+
+/* ---- WRAPPER ---- */
+.ftv2-wrapper { font-family: inherit; max-width: 100%; }
+.ftv2-header { margin-bottom: 16px; }
+.ftv2-header h2 { margin: 0 0 4px 0; }
+.ftv2-header p { margin: 0; opacity: 0.7; font-size: 0.9em; }
+
+/* ============================================================
+   INPUT — 2 COLUMN LAYOUT
+   ============================================================ */
+.ftv2-input-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+@media (max-width: 900px) {
+  .ftv2-input-layout { grid-template-columns: 1fr; }
+}
+
+/* ---- FORMATION DROPDOWN ---- */
+.ftv2-formation-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: rgba(127,127,127,0.08);
+  border-radius: 6px;
+}
+.ftv2-formation-bar label {
+  font-size: 0.85em; font-weight: 600; opacity: 0.8;
+}
+.ftv2-formation-bar select {
+  padding: 4px 8px;
+  border: 1px solid rgba(127,127,127,0.3);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+.ftv2-formation-bar .ftv2-count {
+  margin-left: auto; font-size: 0.8em; opacity: 0.7;
+}
+
+/* ---- INPUT COURT (χωρίς διακοσμητικά) ---- */
+.ftv2-input-court {
+  background: linear-gradient(180deg, #ff8c3c 0%, #ffa96b 50%, #ffc79a 100%);
+  border-radius: 12px;
+  padding: 24px 16px;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+}
+.ftv2-input-court-inner {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.ftv2-input-court-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 16px;
+}
+.ftv2-input-court-row:last-child { margin-bottom: 0; }
+
+/* ---- EMPTY SLOT ---- */
+.ftv2-empty-slot {
+  width: 130px;
+  min-height: 120px;
+  border: 2px dashed rgba(255,255,255,0.6);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(255,255,255,0.15);
+  transition: all 0.15s;
+  color: #fff;
+  position: relative;
+  padding: 8px 4px;
+}
+.ftv2-empty-slot:hover {
+  background: rgba(255,255,255,0.3);
+  border-color: #fff;
+}
+.ftv2-empty-slot.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  border-color: rgba(255,255,255,0.3);
+}
+.ftv2-empty-slot-pos {
+  font-size: 1.4em; font-weight: 800; opacity: 0.85;
+}
+.ftv2-empty-slot-plus {
+  font-size: 1.2em; opacity: 0.7; margin-top: 2px;
+}
+.ftv2-empty-slot-label {
+  font-size: 0.65em;
+  opacity: 0.7;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* ---- SELECTED SLOT ---- */
+.ftv2-slot-selected {
+  border-color: #d4e832 !important;
+  border-style: solid !important;
+  border-width: 3px !important;
+  background: rgba(212,232,50,0.35) !important;
+  animation: ftv2Pulse 1.2s ease-in-out infinite;
+}
+@keyframes ftv2Pulse {
+  0%, 100% { box-shadow: 0 0 12px rgba(212,232,50,0.6); }
+  50%      { box-shadow: 0 0 22px rgba(212,232,50,0.95); }
+}
+
+/* ---- FILLED SLOT ---- */
+.ftv2-filled-slot {
+  position: relative;
+  cursor: pointer;
+  width: 130px;
+}
+.ftv2-filled-slot .ftv2-remove {
+  position: absolute;
+  top: -8px; right: -8px;
+  width: 22px; height: 22px;
+  background: #ff4444; color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85em;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  border: 2px solid #fff;
+  line-height: 1;
+}
+.ftv2-filled-slot .ftv2-remove:hover { background: #cc0000; }
+
+/* ---- INPUT BOTTOM (6TH + BENCH + COACH) ---- */
+.ftv2-input-bottom {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+  background: #2a1a4d;
+  border-radius: 12px;
+  padding: 16px;
+}
+@media (max-width: 800px) {
+  .ftv2-input-bottom { grid-template-columns: 1fr; }
+}
+.ftv2-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.ftv2-input-group-label {
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ftv2-input-bench-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  justify-items: center;
+  width: 100%;
+}
+.ftv2-input-bottom .ftv2-empty-slot {
+  width: 100px;
+  min-height: 95px;
+}
+.ftv2-input-bottom .ftv2-empty-slot-pos { font-size: 1.1em; }
+.ftv2-input-bottom .ftv2-filled-slot { width: 100px; }
+
+/* ---- COACH SLOT ---- */
+.ftv2-input-coach-slot {
+  width: 110px;
+  min-height: 110px;
+  border: 2px dashed rgba(255,255,255,0.6);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: #fff;
+  padding: 8px 6px;
+  text-align: center;
+  position: relative;
+}
+.ftv2-input-coach-slot:hover {
+  background: rgba(255,255,255,0.25);
+  border-color: #fff;
+}
+.ftv2-input-coach-slot .ftv2-coach-icon {
+  font-size: 1.8em; margin-bottom: 4px;
+}
+.ftv2-input-coach-slot .ftv2-coach-name {
+  font-size: 0.75em; font-weight: 700; word-break: break-word;
+}
+.ftv2-input-coach-slot .ftv2-coach-meta {
+  font-size: 0.65em; opacity: 0.8; margin-top: 2px;
+}
+.ftv2-input-coach-slot.filled {
+  border-style: solid;
+  background: rgba(255,255,255,0.2);
+}
+
+/* ---- PLAYER CARD ---- */
+.ftv2-card {
+  position: relative;
+  width: 130px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  overflow: hidden;
+  text-align: center;
+  color: #222;
+  transition: transform 0.15s;
+}
+.ftv2-card:hover { transform: translateY(-2px); }
+.ftv2-card-small { width: 100px; }
+.ftv2-card-jersey {
+  background: #f0f0f0;
+  padding: 6px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  position: relative;
+}
+.ftv2-card-jersey svg { height: 58px; width: auto; }
+.ftv2-card-team-bar {
+  position: absolute;
+  top: 0; right: 0;
+  width: 5px;
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}
+.ftv2-cap-badge {
+  position: absolute;
+  top: 4px; left: 4px;
+  background: #d4e832;
+  color: #222;
+  font-weight: 800;
+  font-size: 0.6em;
+  padding: 2px 5px;
+  border-radius: 3px;
+  z-index: 2;
+  letter-spacing: 0.5px;
+}
+.ftv2-c-badge {
+  position: absolute;
+  top: 4px; right: 8px;
+  background: #34c759;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.65em;
+  width: 14px; height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  z-index: 2;
+}
+.ftv2-card-name-bar {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 3px 4px;
+  font-size: 0.65em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ftv2-card-pos-badge {
+  background: rgba(255,255,255,0.2);
+  font-size: 0.9em;
+  padding: 0 4px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.ftv2-card-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ftv2-card-match-bar {
+  background: #fff;
+  color: #222;
+  padding: 3px 4px;
+  font-size: 0.65em;
+  font-weight: 700;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ftv2-card-match-bar .ftv2-venue { opacity: 0.6; font-weight: 600; }
+.ftv2-card-fallback .ftv2-card-jersey::after {
+  content: "~";
+  position: absolute;
+  top: 4px; left: 6px;
+  font-size: 0.9em;
+  font-weight: 800;
+  color: #ff8c3c;
+}
+.ftv2-card-small .ftv2-card-jersey { height: 48px; }
+.ftv2-card-small .ftv2-card-jersey svg { height: 42px; }
+.ftv2-card-small .ftv2-card-name-bar { font-size: 0.58em; }
+.ftv2-card-small .ftv2-card-match-bar { font-size: 0.58em; }
+
+/* ---- OUTPUT COURT ---- */
+.ftv2-court {
+  background: linear-gradient(180deg, #ff8c3c 0%, #ffa96b 50%, #ffc79a 100%);
+  border-radius: 12px;
+  padding: 24px 16px;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+}
+.ftv2-court-inner {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.ftv2-court-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 16px;
+}
+.ftv2-court-row:last-child { margin-bottom: 0; }
+
+/* ---- OUTPUT BENCH ---- */
+.ftv2-bench-section {
+  background: #2a1a4d;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 800px) {
+  .ftv2-bench-section { grid-template-columns: 1fr; }
+}
+.ftv2-bench-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.ftv2-bench-label {
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ftv2-bench-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  justify-items: center;
+}
+.ftv2-coach-card {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  min-width: 110px;
+}
+.ftv2-coach-card-title {
+  font-size: 0.6em; font-weight: 700; color: #666;
+  text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;
+}
+.ftv2-coach-card-icon { font-size: 1.5em; margin-bottom: 2px; }
+.ftv2-coach-card-name {
+  font-size: 0.72em; font-weight: 700; margin-bottom: 2px; word-break: break-word;
+}
+.ftv2-coach-card-team { font-size: 0.62em; color: #666; }
+.ftv2-coach-card-stats {
+  display: flex; justify-content: center; gap: 6px;
+  font-size: 0.58em; margin-top: 4px; opacity: 0.85;
+}
+
+/* ---- TABS #1 #2 #3 ---- */
+.ftv2-results { margin-top: 16px; }
+.ftv2-tabs {
+  display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;
+}
+.ftv2-tab {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 2px solid rgba(127,127,127,0.3);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.ftv2-tab.active {
+  border-color: #ff6a1a;
+  background: rgba(255,106,26,0.15);
+}
+
+/* ---- BOTTOM BAR ---- */
+.ftv2-bottom-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+.ftv2-bottom-bar label { font-size: 0.85em; opacity: 0.8; }
+.ftv2-bottom-bar input[type=number] {
+  width: 80px;
+  padding: 4px 6px;
+  border: 1px solid rgba(127,127,127,0.3);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+}
+.ftv2-lock-coach {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.85em; cursor: pointer;
+}
+.ftv2-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.ftv2-btn-primary { background: #ff6a1a; color: #fff; }
+.ftv2-btn-primary:hover { background: #e85e10; }
+.ftv2-btn-secondary { background: rgba(127,127,127,0.2); color: inherit; }
+
+/* ---- ALERTS ---- */
+.ftv2-error {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(255,80,80,0.15);
+  border-left: 3px solid #ff5050;
+  border-radius: 4px;
+}
+.ftv2-loading {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(80,160,255,0.15);
+  border-left: 3px solid #50a0ff;
+  border-radius: 4px;
+}
+.ftv2-warn {
+  margin: 10px 0;
+  padding: 8px 12px;
+  background: rgba(255,180,60,0.15);
+  border-left: 3px solid #ffb43c;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+.ftv2-empty { padding: 24px; text-align: center; opacity: 0.6; }
+.ftv2-info {
+  padding: 8px 12px;
+  background: rgba(80,160,255,0.15);
+  border-left: 3px solid #50a0ff;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* ---- META ROW ---- */
+.ftv2-meta-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+  padding: 12px;
+  background: rgba(127,127,127,0.08);
+  border-radius: 8px;
+}
+.ftv2-meta { display: flex; flex-direction: column; gap: 2px; }
+.ftv2-meta-label {
+  font-size: 0.7em; opacity: 0.6; text-transform: uppercase;
+}
+.ftv2-meta-value { font-size: 1em; font-weight: 700; }
+
+/* ---- TRANSFERS ---- */
+.ftv2-transfers {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px solid rgba(127,127,127,0.25);
+  border-radius: 8px;
+}
+.ftv2-transfers h4 { margin: 0 0 8px 0; }
+.ftv2-transfers ul { list-style: none; padding: 0; margin: 0; }
+.ftv2-transfers li { padding: 4px 0; font-size: 0.85em; }
+.ftv2-in {
+  display: inline-block; width: 60px;
+  color: #22c55e; font-weight: 700; font-size: 0.75em;
+}
+.ftv2-out {
+  display: inline-block; width: 60px;
+  color: #ef4444; font-weight: 700; font-size: 0.75em;
+}
+.ftv2-tiny { opacity: 0.7; font-size: 0.8em; }
+
+/* ---- SIDEBAR ---- */
+.ftv2-sidebar {
+  display: flex;
+  flex-direction: column;
+  background: rgba(127,127,127,0.06);
+  border-radius: 8px;
+  padding: 10px;
+  max-height: 720px;
+}
+.ftv2-sidebar-search { display: flex; gap: 6px; margin-bottom: 8px; }
+.ftv2-sidebar-search input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid rgba(127,127,127,0.3);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.85em;
+}
+.ftv2-sidebar-tabs { display: flex; gap: 4px; margin-bottom: 8px; }
+.ftv2-sidebar-tab {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid rgba(127,127,127,0.3);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-align: center;
+}
+.ftv2-sidebar-tab.active {
+  background: #ff6a1a; color: #fff; border-color: #ff6a1a;
+}
+.ftv2-sidebar-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ftv2-sidebar-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(127,127,127,0.15);
+  transition: all 0.15s;
+}
+[data-theme="dark"] .ftv2-sidebar-item {
+  background: rgba(50,50,60,0.5);
+}
+.ftv2-sidebar-item:hover {
+  background: rgba(255,106,26,0.15);
+  border-color: #ff6a1a;
+}
+.ftv2-sidebar-item .ftv2-si-jersey { width: 28px; height: 32px; }
+.ftv2-sidebar-item .ftv2-si-info {
+  display: flex; flex-direction: column; gap: 1px; min-width: 0;
+}
+.ftv2-sidebar-item .ftv2-si-name {
+  font-size: 0.8em; font-weight: 700;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ftv2-sidebar-item .ftv2-si-meta {
+  font-size: 0.7em; opacity: 0.7;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ftv2-sidebar-item .ftv2-si-credits {
+  font-size: 0.85em; font-weight: 800; color: #ff6a1a;
+}
+.ftv2-sidebar-item.in-team {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.ftv2-sidebar-item.in-team::after {
+  content: "✓";
+  color: #22c55e;
+  font-weight: 800;
+  position: absolute;
+  top: 4px; right: 6px;
+  font-size: 0.7em;
+}
+
+@media (max-width: 700px) {
+  .ftv2-bench-section,
+  .ftv2-input-bottom { grid-template-columns: 1fr; }
+  .ftv2-card { width: 100px; }
+}
+
+/* Νέος παίκτης (transfers_in) */
+.ftv2-card-new {
+  border: 3px solid #22c55e !important;
+  box-shadow: 0 0 12px rgba(34,197,94,0.6) !important;
+  position: relative;
+}
+.ftv2-card-new::before {
+  content: "NEW";
+  position: absolute;
+  top: -8px;
+  left: 4px;
+  background: #22c55e;
+  color: #fff;
+  font-size: 0.55em;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 3px;
+  z-index: 5;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================================
+   INJURY STYLES
+   ============================================================ */
+
+/* Card με injured=out */
+.ftv2-card.ftv2-inj-out {
+  filter: grayscale(0.55);
+  opacity: 0.72;
+  border: 2px solid #ff4444 !important;
+}
+.ftv2-card.ftv2-inj-out::after {
+  content: "OUT";
+  position: absolute;
+  bottom: 0; left: 0;
+  background: #ff4444;
+  color: #fff;
+  font-size: 0.55em;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 0 4px 0 0;
+  letter-spacing: 0.5px;
+  z-index: 4;
+}
+
+/* Card με reduced (uncertain / game_time / doubtful) */
+.ftv2-card.ftv2-inj-reduced {
+  border: 2px dashed #ffaa00 !important;
+}
+.ftv2-card.ftv2-inj-reduced::after {
+  content: "?";
+  position: absolute;
+  bottom: 0; left: 0;
+  background: #ffaa00;
+  color: #000;
+  font-size: 0.7em;
+  font-weight: 800;
+  padding: 0 5px;
+  border-radius: 0 4px 0 0;
+  letter-spacing: 0.5px;
+  z-index: 4;
+}
+
+/* Injury flag (πάνω δεξιά στο card) */
+.ftv2-inj-flag {
+  position: absolute;
+  top: 4px; right: 4px;
+  font-size: 0.55em;
+  font-weight: 800;
+  padding: 1px 4px;
+  border-radius: 3px;
+  z-index: 5;
+  letter-spacing: 0.5px;
+}
+.ftv2-inj-flag.out { background: #ff4444; color: #fff; }
+.ftv2-inj-flag.reduced { background: #ffaa00; color: #000; }
+
+/* Sidebar badges */
+.ftv2-si-inj {
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 800;
+  padding: 0 4px;
+  border-radius: 3px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.ftv2-si-inj.out { background: #ff4444; color: #fff; }
+.ftv2-si-inj.reduced { background: #ffaa00; color: #000; }
+
+/* Sidebar item disabled (Out παίκτης) */
+.ftv2-sidebar-item.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  filter: grayscale(0.5);
+}
+.ftv2-sidebar-item.disabled:hover {
+  background: rgba(255,255,255,0.5);
+  border-color: rgba(127,127,127,0.15);
+}

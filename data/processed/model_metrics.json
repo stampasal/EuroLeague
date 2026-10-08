@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-08T23:49:36.889568",
+  "model_version": "v4.2",
+  "feature_names": [
+    "ewma5_pdk",
+    "roll3_pdk",
+    "roll5_pdk",
+    "season_avg",
+    "ewma5_min",
+    "ewma5_fouls",
+    "pdk_std5",
+    "min_trend",
+    "pdk_trend",
+    "games_count",
+    "dvp_opp_vs_pos",
+    "dvp_opp_vs_pos_l20",
+    "opp_adj_def",
+    "opp_adj_z",
+    "opp_pooled_def",
+    "opp_quality",
+    "is_home"
+  ],
+  "season_weights": {
+    "2022": 0.3,
+    "2023": 0.6,
+    "2024": 1.0,
+    "2025": 1.0,
+    "2026": 0.0
+  },
+  "min_predict_season": 2026,
+  "league_mean_pooled": 45.793,
+  "league_avg_dvp": 8.869,
+  "per_position": {
+    "G": {
+      "gb_params": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "weights": {
+        "ridge": 0.7,
+        "gb": 0.3,
+        "ma": -0.0
+      },
+      "n_train": 7789,
+      "n_test": 3339,
+      "mae": 5.846,
+      "rmse": 7.561,
+      "baseline_mae": 7.12,
+      "residual_std": 7.561,
+      "improvement_pct": 17.9,
+      "oof_mae": 5.562
+    },
+    "F": {
+      "gb_params": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "weights": {
+        "ridge": 0.5,
+        "gb": 0.4,
+        "ma": 0.1
+      },
+      "n_train": 6997,
+      "n_test": 2999,
+      "mae": 5.091,
+      "rmse": 6.582,
+      "baseline_mae": 6.39,
+      "residual_std": 6.582,
+      "improvement_pct": 20.3,
+      "oof_mae": 5.085
+    },
+    "C": {
+      "gb_params": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "weights": {
+        "ridge": 0.6,
+        "gb": 0.25,
+        "ma": 0.15
+      },
+      "n_train": 4020,
+      "n_test": 1724,
+      "mae": 5.693,
+      "rmse": 7.325,
+      "baseline_mae": 6.771,
+      "residual_std": 7.325,
+      "improvement_pct": 15.9,
+      "oof_mae": 5.109
+    }
+  }
+}

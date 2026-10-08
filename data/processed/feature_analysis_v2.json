@@ -1,0 +1,53 @@
+{
+  "rest_days": {
+    "n": 475,
+    "corr": 0.0424,
+    "buckets": {
+      "1-2d": {
+        "n": 143,
+        "avg_pdk": 7.47
+      },
+      "3-4d": {
+        "n": 155,
+        "avg_pdk": 8.09
+      },
+      "5-7d": {
+        "n": 177,
+        "avg_pdk": 8.16
+      }
+    }
+  },
+  "is_back_to_back": {
+    "n": 475,
+    "corr": -0.0393,
+    "buckets": {
+      "B2B": {
+        "n": 143,
+        "avg_pdk": 7.47
+      },
+      "Rest": {
+        "n": 332,
+        "avg_pdk": 8.13
+      }
+    }
+  },
+  "team_form_l5": {
+    "n": 0,
+    "corr": null,
+    "buckets": null
+  },
+  "is_home": {
+    "n": 33672,
+    "corr": 0.043,
+    "buckets": {
+      "Away": {
+        "n": 16796,
+        "avg_pdk": 7.18
+      },
+      "Home": {
+        "n": 16876,
+        "avg_pdk": 7.88
+      }
+    }
+  }
+}

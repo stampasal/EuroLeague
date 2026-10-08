@@ -1,0 +1,1574 @@
+{
+  "014163": {
+    "name": "BUTLER, JARED",
+    "height": 191,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "011305": {
+    "name": "CARTER, TYSON",
+    "height": 193,
+    "weight": 76,
+    "pos": "Guard"
+  },
+  "004007": {
+    "name": "DOBRIC, OGNJEN",
+    "height": 200,
+    "weight": 93,
+    "pos": "Forward"
+  },
+  "014029": {
+    "name": "IZUNDU, EBUKA",
+    "height": 208,
+    "weight": 105,
+    "pos": "Center"
+  },
+  "010568": {
+    "name": "JONES, CHRIS",
+    "height": 188,
+    "weight": 99,
+    "pos": "Guard"
+  },
+  "006482": {
+    "name": "KRAMER, DAVID",
+    "height": 198,
+    "weight": 92,
+    "pos": "Guard"
+  },
+  "014094": {
+    "name": "MILJENOVIC, STEFAN",
+    "height": 193,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "012201": {
+    "name": "MONEKE, CHIMA",
+    "height": 196,
+    "weight": 101,
+    "pos": "Forward"
+  },
+  "011157": {
+    "name": "MOTLEY, JOHNATHAN",
+    "height": 206,
+    "weight": 109,
+    "pos": "Center"
+  },
+  "013363": {
+    "name": "NWORA, JORDAN",
+    "height": 203,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "011982": {
+    "name": "OJELEYE, SEMI",
+    "height": 198,
+    "weight": 108,
+    "pos": "Forward"
+  },
+  "010391": {
+    "name": "WEILER-BABB, NICK",
+    "height": 194,
+    "weight": 96,
+    "pos": "Guard"
+  },
+  "008186": {
+    "name": "BLAZEVIC, MAREK",
+    "height": 211,
+    "weight": 116,
+    "pos": "Center"
+  },
+  "012720": {
+    "name": "BROWN, STERLING",
+    "height": 198,
+    "weight": 102,
+    "pos": "Guard"
+  },
+  "002676": {
+    "name": "BUTKEVICIUS, ARNAS",
+    "height": 197,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "011987": {
+    "name": "EDWARDS, CARSEN",
+    "height": 180,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "007513": {
+    "name": "GIEDRAITIS, DOVYDAS",
+    "height": 193,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "002328": {
+    "name": "GRIGONIS, MARIUS",
+    "height": 198,
+    "weight": 93,
+    "pos": "Guard"
+  },
+  "007032": {
+    "name": "LO, MAODO",
+    "height": 192,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "011927": {
+    "name": "SLEVA, DUSTIN",
+    "height": 203,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "008192": {
+    "name": "TUBELIS, AZUOLAS",
+    "height": 208,
+    "weight": 111,
+    "pos": "Forward"
+  },
+  "002329": {
+    "name": "ULANOVAS, EDGARAS",
+    "height": 199,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "000898": {
+    "name": "VALANCIUNAS, JONAS",
+    "height": 211,
+    "weight": 128,
+    "pos": "Center"
+  },
+  "007982": {
+    "name": "WILLIAMS-GOSS, NIGEL",
+    "height": 191,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "011924": {
+    "name": "ALLMAN, KYLE",
+    "height": 191,
+    "weight": 83,
+    "pos": "Guard"
+  },
+  "010390": {
+    "name": "HAYES, KEVARRIUS",
+    "height": 206,
+    "weight": 103,
+    "pos": "Center"
+  },
+  "009733": {
+    "name": "JEKIRI, TONYE",
+    "height": 213,
+    "weight": 111,
+    "pos": "Center"
+  },
+  "013369": {
+    "name": "JONES, CARLIK",
+    "height": 183,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "007736": {
+    "name": "LAKIC, ARIJAN",
+    "height": 199,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "007632": {
+    "name": "NAKIC, MARIO",
+    "height": 202,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "006739": {
+    "name": "PAJOLA, ALESSANDRO",
+    "height": 194,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "014009": {
+    "name": "STEVENS, LAMAR",
+    "height": 201,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "005637": {
+    "name": "TANASKOVIC, NIKOLA",
+    "height": 205,
+    "weight": 98,
+    "pos": "Center"
+  },
+  "014742": {
+    "name": "THOMPSON, ETHAN",
+    "height": 193,
+    "weight": 88,
+    "pos": "Forward"
+  },
+  "007947": {
+    "name": "VILDOZA, LUCA",
+    "height": 191,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "009664": {
+    "name": "WILLIS, DEREK",
+    "height": 205,
+    "weight": 104,
+    "pos": "Center"
+  },
+  "008985": {
+    "name": "BOLMARO, LEANDRO",
+    "height": 200,
+    "weight": 82,
+    "pos": "Guard"
+  },
+  "007056": {
+    "name": "BOOKER, DEVIN",
+    "height": 205,
+    "weight": 113,
+    "pos": "Center"
+  },
+  "014782": {
+    "name": "BURNELL, JASON",
+    "height": 201,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "013929": {
+    "name": "COLE, RJ",
+    "height": 185,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "005670": {
+    "name": "FLACCADORI, DIEGO",
+    "height": 193,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "004004": {
+    "name": "GUDURIC, MARKO",
+    "height": 196,
+    "weight": 97,
+    "pos": "Guard"
+  },
+  "011205": {
+    "name": "HALL, DEVON",
+    "height": 196,
+    "weight": 96,
+    "pos": "Guard"
+  },
+  "008829": {
+    "name": "PETERS, ALEC",
+    "height": 206,
+    "weight": 107,
+    "pos": "Forward"
+  },
+  "001518": {
+    "name": "RICCI, GIAMPAOLO",
+    "height": 201,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "011078": {
+    "name": "THOMPSON, DARIUS",
+    "height": 193,
+    "weight": 93,
+    "pos": "Guard"
+  },
+  "006509": {
+    "name": "TONUT, STEFANO",
+    "height": 194,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "012878": {
+    "name": "WRIGHT, MOSES",
+    "height": 207,
+    "weight": 106,
+    "pos": "Center"
+  },
+  "012742": {
+    "name": "DOZIER, PJ",
+    "height": 198,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "013667": {
+    "name": "FERNANDO, BRUNO",
+    "height": 208,
+    "weight": 106,
+    "pos": "Center"
+  },
+  "005985": {
+    "name": "JAMES, MIKE",
+    "height": 185,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "014102": {
+    "name": "JONES, KAI",
+    "height": 211,
+    "weight": 105,
+    "pos": "Center"
+  },
+  "009754": {
+    "name": "LOYD, JORDAN",
+    "height": 193,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "012609": {
+    "name": "MALCOLM, COLLIN",
+    "height": 200,
+    "weight": 91,
+    "pos": "Forward"
+  },
+  "012710": {
+    "name": "OSMANI, ERCAN",
+    "height": 210,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "013943": {
+    "name": "RUSSELL, DARON",
+    "height": 180,
+    "weight": 75,
+    "pos": "Guard"
+  },
+  "003112": {
+    "name": "SARIC, DARIO",
+    "height": 207,
+    "weight": 101,
+    "pos": "Forward"
+  },
+  "008099": {
+    "name": "STRAZEL, MATTHEW",
+    "height": 184,
+    "weight": 78,
+    "pos": "Guard"
+  },
+  "006372": {
+    "name": "YILMAZ, ERKAN",
+    "height": 197,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "005368": {
+    "name": "YUSTA, SANTI",
+    "height": 200,
+    "weight": 87,
+    "pos": "Forward"
+  },
+  "003733": {
+    "name": "ABALDE, ALBERTO",
+    "height": 202,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "005928": {
+    "name": "CAMPAZZO, FACUNDO",
+    "height": 181,
+    "weight": 84,
+    "pos": "Guard"
+  },
+  "009005": {
+    "name": "DECK, GABRIEL",
+    "height": 198,
+    "weight": 101,
+    "pos": "Forward"
+  },
+  "011247": {
+    "name": "FELIZ, ANDRES",
+    "height": 186,
+    "weight": 94,
+    "pos": "Guard"
+  },
+  "012613": {
+    "name": "JANTUNEN, MIKAEL",
+    "height": 205,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "015103": {
+    "name": "JONES, DAMIAN",
+    "height": 210,
+    "weight": 109,
+    "pos": "Center"
+  },
+  "012080": {
+    "name": "LUWAWU-CABARROT, TIMOTHE",
+    "height": 201,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "007027": {
+    "name": "MALEDON, THEO",
+    "height": 193,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "014006": {
+    "name": "OKEKE, CHUMA",
+    "height": 201,
+    "weight": 104,
+    "pos": "Center"
+  },
+  "010393": {
+    "name": "PRADILLA, JAIME",
+    "height": 205,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "015244": {
+    "name": "SMITH JR, NICK",
+    "height": 189,
+    "weight": 84,
+    "pos": "Forward"
+  },
+  "005791": {
+    "name": "TAVARES, WALTER",
+    "height": 220,
+    "weight": 125,
+    "pos": "Center"
+  },
+  "013402": {
+    "name": "BLAKENEY, ANTONIO",
+    "height": 193,
+    "weight": 89,
+    "pos": "Guard"
+  },
+  "009846": {
+    "name": "BRYANT, ELIJAH",
+    "height": 196,
+    "weight": 99,
+    "pos": "Guard"
+  },
+  "012096": {
+    "name": "CABOCLO, BRUNO",
+    "height": 208,
+    "weight": 102,
+    "pos": "Center"
+  },
+  "008912": {
+    "name": "CARRINGTON, KHADEEN",
+    "height": 187,
+    "weight": 82,
+    "pos": "Guard"
+  },
+  "015152": {
+    "name": "GERMAN, EUGENE",
+    "height": 182,
+    "weight": 84,
+    "pos": "Guard"
+  },
+  "008987": {
+    "name": "LEDAY, ZACH",
+    "height": 202,
+    "weight": 106,
+    "pos": "Forward"
+  },
+  "002580": {
+    "name": "MICIC, VASILIJE",
+    "height": 196,
+    "weight": 92,
+    "pos": "Guard"
+  },
+  "011823": {
+    "name": "ODIASE, TAI",
+    "height": 206,
+    "weight": 109,
+    "pos": "Center"
+  },
+  "012788": {
+    "name": "OTURU, DAN",
+    "height": 208,
+    "weight": 102,
+    "pos": "Center"
+  },
+  "002939": {
+    "name": "SATORANSKY, TOMAS",
+    "height": 201,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "004846": {
+    "name": "TIMOR, BAR",
+    "height": 191,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "013284": {
+    "name": "WAINRIGHT, ISH",
+    "height": 196,
+    "weight": 111,
+    "pos": "Forward"
+  },
+  "011286": {
+    "name": "BACON, DWAYNE",
+    "height": 204,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "003458": {
+    "name": "BERTANS, DAVIS",
+    "height": 210,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "011231": {
+    "name": "BLOSSOMGAME, JARON",
+    "height": 200,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "014027": {
+    "name": "DIAKITE, MAMADI",
+    "height": 206,
+    "weight": 100,
+    "pos": "Center"
+  },
+  "012796": {
+    "name": "KABENGELE, MFIONDU",
+    "height": 208,
+    "weight": 120,
+    "pos": "Center"
+  },
+  "014031": {
+    "name": "KONDIC, KOSTA",
+    "height": 193,
+    "weight": 89,
+    "pos": "Guard"
+  },
+  "014731": {
+    "name": "MINTZ, DAVION",
+    "height": 195,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "011212": {
+    "name": "OKOBO, ELIE",
+    "height": 190,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "011194": {
+    "name": "PETRUSEV, FILIP",
+    "height": 211,
+    "weight": 104,
+    "pos": "Center"
+  },
+  "001133": {
+    "name": "SHENGELIA, TORNIKE",
+    "height": 207,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "008855": {
+    "name": "WALKUP, THOMAS",
+    "height": 193,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "012606": {
+    "name": "WRIGHT IV, MCKINLEY",
+    "height": 182,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "007553": {
+    "name": "BALCEROWSKI, OLEK",
+    "height": 216,
+    "weight": 104,
+    "pos": "Center"
+  },
+  "009992": {
+    "name": "BRIZUELA, DARIO",
+    "height": 188,
+    "weight": 82,
+    "pos": "Guard"
+  },
+  "013855": {
+    "name": "GIBSON, UMOJA",
+    "height": 185,
+    "weight": 77,
+    "pos": "Guard"
+  },
+  "015138": {
+    "name": "MARTIN, TYRESE",
+    "height": 198,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "015142": {
+    "name": "MINAYA, JUSTIN",
+    "height": 196,
+    "weight": 93,
+    "pos": "Guard"
+  },
+  "015140": {
+    "name": "NKAMHOUA, OLIVIER",
+    "height": 203,
+    "weight": 106,
+    "pos": "Forward"
+  },
+  "010106": {
+    "name": "NUNEZ, JUAN",
+    "height": 193,
+    "weight": 87,
+    "pos": "Guard"
+  },
+  "007464": {
+    "name": "PARRA, JOEL",
+    "height": 201,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "009862": {
+    "name": "PUNTER, KEVIN",
+    "height": 193,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "014008": {
+    "name": "ROBINSON, JUSTIN",
+    "height": 185,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "010062": {
+    "name": "UBAL, AGUSTIN",
+    "height": 198,
+    "weight": 84,
+    "pos": "Guard"
+  },
+  "015139": {
+    "name": "UMUDE, STANLEY",
+    "height": 198,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "007029": {
+    "name": "SIRVYDIS, DEIVIDAS",
+    "height": 204,
+    "weight": 96,
+    "pos": "Guard"
+  },
+  "009849": {
+    "name": "DORSEY, TYLER",
+    "height": 196,
+    "weight": 83,
+    "pos": "Guard"
+  },
+  "003048": {
+    "name": "DUNSTON, BRYANT",
+    "height": 203,
+    "weight": 114,
+    "pos": "Center"
+  },
+  "013380": {
+    "name": "FOURNIER, EVAN",
+    "height": 200,
+    "weight": 92,
+    "pos": "Forward"
+  },
+  "011196": {
+    "name": "HALL, DONTA",
+    "height": 208,
+    "weight": 105,
+    "pos": "Center"
+  },
+  "011981": {
+    "name": "JONES, TYRIQUE",
+    "height": 206,
+    "weight": 108,
+    "pos": "Center"
+  },
+  "009048": {
+    "name": "MILLER-MCINTYRE, CODI",
+    "height": 191,
+    "weight": 93,
+    "pos": "Guard"
+  },
+  "010042": {
+    "name": "MONTERO, JEAN",
+    "height": 188,
+    "weight": 75,
+    "pos": "Guard"
+  },
+  "012731": {
+    "name": "NDIAYE, MBAYE",
+    "height": 204,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "001255": {
+    "name": "PAPANIKOLAOU, KOSTAS",
+    "height": 204,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "010091": {
+    "name": "PLOTAS, NIKOLAOS",
+    "height": 195,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "003469": {
+    "name": "VEZENKOV, SASHA",
+    "height": 206,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "012610": {
+    "name": "WARD, TYSON",
+    "height": 198,
+    "weight": 86,
+    "pos": "Forward"
+  },
+  "013384": {
+    "name": "BROOKS, ARMONI",
+    "height": 194,
+    "weight": 94,
+    "pos": "Guard"
+  },
+  "014740": {
+    "name": "CORBALAN, GONZALO",
+    "height": 193,
+    "weight": 88,
+    "pos": "Forward"
+  },
+  "000796": {
+    "name": "MIROTIC, NIKOLA",
+    "height": 208,
+    "weight": 106,
+    "pos": "Forward"
+  },
+  "014115": {
+    "name": "MOORE, OMARI",
+    "height": 198,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "010581": {
+    "name": "OSETKOWSKI, DYLAN",
+    "height": 206,
+    "weight": 109,
+    "pos": "Forward"
+  },
+  "006643": {
+    "name": "PUERTO, JOSEP",
+    "height": 202,
+    "weight": 102,
+    "pos": "Guard"
+  },
+  "012738": {
+    "name": "REUVERS, NATHAN",
+    "height": 209,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "011214": {
+    "name": "RIVERO, JASIEL",
+    "height": 206,
+    "weight": 110,
+    "pos": "Forward"
+  },
+  "011706": {
+    "name": "SAINT-SUPERY, MARIO",
+    "height": 192,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "010545": {
+    "name": "SAKO, NEAL",
+    "height": 210,
+    "weight": 96,
+    "pos": "Center"
+  },
+  "012608": {
+    "name": "SHORTS, TJ",
+    "height": 175,
+    "weight": 73,
+    "pos": "Guard"
+  },
+  "011217": {
+    "name": "TAYLOR, KAMERON",
+    "height": 198,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "014736": {
+    "name": "BAUGH, DAMION",
+    "height": 193,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "014735": {
+    "name": "DUARTE, CHRIS",
+    "height": 196,
+    "weight": 86,
+    "pos": "Forward"
+  },
+  "011284": {
+    "name": "FARIED, KENNETH",
+    "height": 203,
+    "weight": 103,
+    "pos": "Center"
+  },
+  "014026": {
+    "name": "FRISCH, CLEMENT",
+    "height": 201,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "011948": {
+    "name": "HOWARD, MARKUS",
+    "height": 178,
+    "weight": 79,
+    "pos": "Guard"
+  },
+  "014107": {
+    "name": "JOKSIMOVIC, STEFAN",
+    "height": 194,
+    "weight": 83,
+    "pos": "Forward"
+  },
+  "005713": {
+    "name": "KURUCS, RODIONS",
+    "height": 206,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "014734": {
+    "name": "LAWSON, A.J.",
+    "height": 198,
+    "weight": 81,
+    "pos": "Forward"
+  },
+  "007230": {
+    "name": "SEDEKERSKIS, TADAS",
+    "height": 206,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "014152": {
+    "name": "SIMMONS, KOBI",
+    "height": 192,
+    "weight": 77,
+    "pos": "Guard"
+  },
+  "008173": {
+    "name": "SPAGNOLO, MATTEO",
+    "height": 193,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "012700": {
+    "name": "STEWART, DJ",
+    "height": 196,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "014783": {
+    "name": "MATHEWS, GARRISON",
+    "height": 196,
+    "weight": 98,
+    "pos": "Guard"
+  },
+  "014005": {
+    "name": "ALSTON JR. , DERRICK",
+    "height": 207,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "006707": {
+    "name": "BALDASSO, TOMMASO",
+    "height": 190,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "014802": {
+    "name": "BELLO, RASHEED",
+    "height": 183,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "012707": {
+    "name": "CARR, MARCUS",
+    "height": 188,
+    "weight": 70,
+    "pos": "Guard"
+  },
+  "014108": {
+    "name": "DIARRA, ALIOU",
+    "height": 206,
+    "weight": 100,
+    "pos": "Center"
+  },
+  "013374": {
+    "name": "DIOUF, MOUHAMET",
+    "height": 208,
+    "weight": 105,
+    "pos": "Center"
+  },
+  "014416": {
+    "name": "EDWARDS, KESSLER",
+    "height": 204,
+    "weight": 105,
+    "pos": "Forward"
+  },
+  "014219": {
+    "name": "FERRARI, FRANCESCO",
+    "height": 204,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "015029": {
+    "name": "FRAZIER, TRENT",
+    "height": 188,
+    "weight": 85,
+    "pos": "Guard"
+  },
+  "001844": {
+    "name": "HACKETT, DANIEL",
+    "height": 196,
+    "weight": 97,
+    "pos": "Guard"
+  },
+  "014738": {
+    "name": "KLINTMAN, BO",
+    "height": 205,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "014737": {
+    "name": "MOORE, WENDELL",
+    "height": 196,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "009863": {
+    "name": "BALDWIN IV, WADE",
+    "height": 193,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "013506": {
+    "name": "BINGHAM, MARCUS",
+    "height": 213,
+    "weight": 100,
+    "pos": "Center"
+  },
+  "004888": {
+    "name": "CLYBURN, WILL",
+    "height": 201,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "013367": {
+    "name": "FORREST, TRENT",
+    "height": 193,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "014124": {
+    "name": "HORTON TUCKER, TALEN",
+    "height": 193,
+    "weight": 106,
+    "pos": "Guard"
+  },
+  "014733": {
+    "name": "JUZANG, JOHNNY",
+    "height": 201,
+    "weight": 0,
+    "pos": "Forward"
+  },
+  "014168": {
+    "name": "KEY, BRAXTON",
+    "height": 203,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "002849": {
+    "name": "MELLI, NICOLO",
+    "height": 205,
+    "weight": 112,
+    "pos": "Forward"
+  },
+  "002968": {
+    "name": "SANLI, SERTAC",
+    "height": 212,
+    "weight": 115,
+    "pos": "Center"
+  },
+  "006896": {
+    "name": "SARGIUNAS, IGNAS",
+    "height": 193,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "007831": {
+    "name": "SHIELDS, SHAVON",
+    "height": 201,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "014220": {
+    "name": "SILVA, CHRIS",
+    "height": 203,
+    "weight": 106,
+    "pos": "Center"
+  },
+  "014732": {
+    "name": "BEAUCHAMP, MARJON",
+    "height": 201,
+    "weight": 90,
+    "pos": "Forward"
+  },
+  "011244": {
+    "name": "DA SILVA, OSCAR",
+    "height": 205,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "009513": {
+    "name": "HOLLATZ, JUSTUS",
+    "height": 195,
+    "weight": 87,
+    "pos": "Guard"
+  },
+  "013290": {
+    "name": "JESSUP, JUSTINIAN",
+    "height": 198,
+    "weight": 97,
+    "pos": "Guard"
+  },
+  "007519": {
+    "name": "JOKUBAITIS, ROKAS",
+    "height": 193,
+    "weight": 88,
+    "pos": "Guard"
+  },
+  "001288": {
+    "name": "LUCIC, VLADIMIR",
+    "height": 204,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "014134": {
+    "name": "NORRIS, MILES",
+    "height": 206,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "004508": {
+    "name": "OBST, ANDREAS",
+    "height": 191,
+    "weight": 81,
+    "pos": "Guard"
+  },
+  "003958": {
+    "name": "THIEMANN, JOHANNES",
+    "height": 205,
+    "weight": 110,
+    "pos": "Center"
+  },
+  "007201": {
+    "name": "VOIGTMANN, JOHANNES",
+    "height": 211,
+    "weight": 111,
+    "pos": "Center"
+  },
+  "013370": {
+    "name": "WASHINGTON, DUANE",
+    "height": 191,
+    "weight": 89,
+    "pos": "Guard"
+  },
+  "013278": {
+    "name": "WILEY, AUSTIN",
+    "height": 211,
+    "weight": 116,
+    "pos": "Center"
+  },
+  "013373": {
+    "name": "CAVALIERE, LEOPOLD",
+    "height": 202,
+    "weight": 97,
+    "pos": "Forward"
+  },
+  "014010": {
+    "name": "DOKOSSI, ALLAN",
+    "height": 203,
+    "weight": 97,
+    "pos": "Center"
+  },
+  "015143": {
+    "name": "ETIENNE, TYSON",
+    "height": 184,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "012403": {
+    "name": "FAYE, MOUHAMED",
+    "height": 209,
+    "weight": 98,
+    "pos": "Center"
+  },
+  "012611": {
+    "name": "HERRERA, SEBASTIAN",
+    "height": 193,
+    "weight": 92,
+    "pos": "Guard"
+  },
+  "012640": {
+    "name": "HIFI, NADIR",
+    "height": 185,
+    "weight": 82,
+    "pos": "Guard"
+  },
+  "011949": {
+    "name": "HOMMES, DAULTON",
+    "height": 203,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "010431": {
+    "name": "MORGAN, JEREMY",
+    "height": 199,
+    "weight": 89,
+    "pos": "Forward"
+  },
+  "006591": {
+    "name": "NTILIKINA, FRANK",
+    "height": 194,
+    "weight": 97,
+    "pos": "Guard"
+  },
+  "014178": {
+    "name": "RHODEN, JARED",
+    "height": 198,
+    "weight": 89,
+    "pos": "Guard"
+  },
+  "012515": {
+    "name": "TARPEY, TERRY",
+    "height": 196,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "015168": {
+    "name": "WARREN, TJ",
+    "height": 203,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "005793": {
+    "name": "SY, BANDJA",
+    "height": 205,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "014015": {
+    "name": "BACOT JR., ARMANDO",
+    "height": 208,
+    "weight": 0,
+    "pos": "Center"
+  },
+  "014127": {
+    "name": "BRISSETT, O'SHAE J",
+    "height": 201,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "013699": {
+    "name": "CLARK III, JIMMY",
+    "height": 190,
+    "weight": 83,
+    "pos": "Guard"
+  },
+  "009783": {
+    "name": "COLSON, BONZIE",
+    "height": 198,
+    "weight": 102,
+    "pos": "Forward"
+  },
+  "006835": {
+    "name": "HOARD, JAYLEN",
+    "height": 204,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "014012": {
+    "name": "LEAF, TJ",
+    "height": 208,
+    "weight": 90,
+    "pos": "Forward"
+  },
+  "010781": {
+    "name": "LUNDBERG, IFFE",
+    "height": 193,
+    "weight": 94,
+    "pos": "Guard"
+  },
+  "011052": {
+    "name": "MADAR, YAM",
+    "height": 190,
+    "weight": 78,
+    "pos": "Guard"
+  },
+  "013381": {
+    "name": "RAYMAN, WILLIAM",
+    "height": 203,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "011219": {
+    "name": "SORKIN, ROMAN",
+    "height": 208,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "004132": {
+    "name": "THEIS, DANIEL",
+    "height": 204,
+    "weight": 113,
+    "pos": "Center"
+  },
+  "015085": {
+    "name": "WALLACE, KEATON",
+    "height": 191,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "003091": {
+    "name": "BIRSEN, METECAN",
+    "height": 205,
+    "weight": 89,
+    "pos": "Center"
+  },
+  "009025": {
+    "name": "BROWN, ANTHONY",
+    "height": 203,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "013250": {
+    "name": "DEJULIUS, DAVID",
+    "height": 183,
+    "weight": 95,
+    "pos": "Guard"
+  },
+  "013285": {
+    "name": "DOTSON, DEVON",
+    "height": 188,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "013383": {
+    "name": "GABRIEL, WENYEN",
+    "height": 206,
+    "weight": 100,
+    "pos": "Center"
+  },
+  "005763": {
+    "name": "KORKMAZ, FURKAN",
+    "height": 202,
+    "weight": 92,
+    "pos": "Forward"
+  },
+  "009680": {
+    "name": "MORGAN, CONOR",
+    "height": 208,
+    "weight": 100,
+    "pos": "Center"
+  },
+  "014786": {
+    "name": "NOWELL, JAYLEN",
+    "height": 191,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "014207": {
+    "name": "OMORUYI, EUGENE",
+    "height": 198,
+    "weight": 107,
+    "pos": "Center"
+  },
+  "003783": {
+    "name": "UGURLU, BERK",
+    "height": 192,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "006661": {
+    "name": "WILBEKIN, SCOTTIE",
+    "height": 188,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "004554": {
+    "name": "ZIZIC, ANTE",
+    "height": 210,
+    "weight": 122,
+    "pos": "Center"
+  },
+  "008384": {
+    "name": "PROCIDA, GABRIELE",
+    "height": 201,
+    "weight": 91,
+    "pos": "Forward"
+  },
+  "006833": {
+    "name": "SARR, OLIVIER",
+    "height": 210,
+    "weight": 110,
+    "pos": "Center"
+  },
+  "007527": {
+    "name": "BADIO, BRANCOU",
+    "height": 191,
+    "weight": 83,
+    "pos": "Guard"
+  },
+  "006760": {
+    "name": "BONGA, ISAAC",
+    "height": 203,
+    "weight": 105,
+    "pos": "Forward"
+  },
+  "007975": {
+    "name": "FRANCISCO, SYLVAIN",
+    "height": 185,
+    "weight": 79,
+    "pos": "Guard"
+  },
+  "011204": {
+    "name": "GRANT, JERIAN",
+    "height": 196,
+    "weight": 91,
+    "pos": "Guard"
+  },
+  "011209": {
+    "name": "KALAITZAKIS, PANAGIOTIS",
+    "height": 200,
+    "weight": 92,
+    "pos": "Guard"
+  },
+  "003842": {
+    "name": "LESSORT, MATHIAS",
+    "height": 206,
+    "weight": 113,
+    "pos": "Center"
+  },
+  "008084": {
+    "name": "MANTZOUKAS, ELEFTHERIOS",
+    "height": 207,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "007866": {
+    "name": "MITOGLOU, KONSTANTINOS",
+    "height": 210,
+    "weight": 113,
+    "pos": "Forward"
+  },
+  "006544": {
+    "name": "MORAITIS, DIMITRIS",
+    "height": 190,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "011085": {
+    "name": "ROGKAVOPOULOS, NIKOLAOS",
+    "height": 201,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "010357": {
+    "name": "YABUSELE, GUERSCHON",
+    "height": 201,
+    "weight": 123,
+    "pos": "Forward"
+  },
+  "015164": {
+    "name": "BESSON, HUGO",
+    "height": 194,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "009035": {
+    "name": "BOLOMBOY, JOEL",
+    "height": 204,
+    "weight": 103,
+    "pos": "Center"
+  },
+  "013269": {
+    "name": "CALE, MYLES",
+    "height": 198,
+    "weight": 95,
+    "pos": "Forward"
+  },
+  "015166": {
+    "name": "CROWDER, JAE",
+    "height": 195,
+    "weight": 116,
+    "pos": "Forward"
+  },
+  "015161": {
+    "name": "FODZO DADA, MARC-OWEN",
+    "height": 187,
+    "weight": 85,
+    "pos": "Guard"
+  },
+  "013900": {
+    "name": "GACH, BOTH",
+    "height": 200,
+    "weight": 90,
+    "pos": "Forward"
+  },
+  "003526": {
+    "name": "LIGHTY, DAVID",
+    "height": 198,
+    "weight": 100,
+    "pos": "Forward"
+  },
+  "012618": {
+    "name": "MASSA, BODIAN",
+    "height": 210,
+    "weight": 108,
+    "pos": "Forward"
+  },
+  "015163": {
+    "name": "MILLS, PATTY",
+    "height": 181,
+    "weight": 82,
+    "pos": "Guard"
+  },
+  "006832": {
+    "name": "PONS, YVES",
+    "height": 198,
+    "weight": 98,
+    "pos": "Forward"
+  },
+  "011980": {
+    "name": "SESTINA, NATHAN",
+    "height": 203,
+    "weight": 104,
+    "pos": "Forward"
+  },
+  "015165": {
+    "name": "WATERS, TREMONT",
+    "height": 180,
+    "weight": 79,
+    "pos": "Guard"
+  },
+  "014316": {
+    "name": "JOSEPH, CORY",
+    "height": 188,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "006904": {
+    "name": "AYAYI, JOEL",
+    "height": 196,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "015160": {
+    "name": "JOHNSON, ALIZE",
+    "height": 206,
+    "weight": 92,
+    "pos": "Forward"
+  },
+  "013289": {
+    "name": "SANTOS, MARCIO",
+    "height": 204,
+    "weight": 120,
+    "pos": "Center"
+  },
+  "012597": {
+    "name": "BALDWIN, KAMAR",
+    "height": 185,
+    "weight": 86,
+    "pos": "Guard"
+  },
+  "001557": {
+    "name": "GIFFEY, NIELS",
+    "height": 200,
+    "weight": 97,
+    "pos": "Forward"
+  },
+  "010726": {
+    "name": "JENSEN, TOBIAS",
+    "height": 197,
+    "weight": 81,
+    "pos": "Guard"
+  },
+  "004194": {
+    "name": "LAUVERGNE, JOFFREY",
+    "height": 211,
+    "weight": 118,
+    "pos": "Center"
+  },
+  "005942": {
+    "name": "DANGUBIC, NEMANJA",
+    "height": 204,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "015151": {
+    "name": "TOPPIN, JACOB",
+    "height": 206,
+    "weight": 91,
+    "pos": "Forward"
+  },
+  "008962": {
+    "name": "HAYES-DAVIS, NIGEL",
+    "height": 203,
+    "weight": 103,
+    "pos": "Forward"
+  },
+  "006020": {
+    "name": "EBO, AMIT",
+    "height": 180,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "003941": {
+    "name": "MILUTINOV, NIKOLA",
+    "height": 213,
+    "weight": 114,
+    "pos": "Center"
+  },
+  "007990": {
+    "name": "DIBARTOLOMEO, JOHN",
+    "height": 183,
+    "weight": 90,
+    "pos": "Guard"
+  },
+  "012712": {
+    "name": "HERNANGOMEZ, JUANCHO",
+    "height": 206,
+    "weight": 97,
+    "pos": "Forward"
+  },
+  "014785": {
+    "name": "JEFFRIES, DAQUAN",
+    "height": 196,
+    "weight": 99,
+    "pos": "Forward"
+  },
+  "014741": {
+    "name": "CARDENAS, ALVARO",
+    "height": 185,
+    "weight": 80,
+    "pos": "Guard"
+  },
+  "007929": {
+    "name": "BITIM, ONURALP",
+    "height": 196,
+    "weight": 89,
+    "pos": "Forward"
+  }
+}

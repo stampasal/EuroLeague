@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EuroLeague Tracker 3.0</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/fantasy-team-v2.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="header-top">
+      <div class="header-left">
+        <img class="el-logo" id="elLogo"
+             src="logos/EL/Euroleague.png"
+             alt="EuroLeague"
+             onerror="this.style.display='none'">
+      </div>
+      <div class="header-right">
+        <div class="actions">
+          <button id="btnTheme" title="Toggle theme">ðŸŒ™</button>
+        </div>
+      </div>
+    </div>
+    <div class="header-stats">
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+        <span id="progressText">Loadingâ€¦</span>
+      </div>
+      <div class="header-mini-stats" id="headerMiniStats"></div>
+    </div>
+  </header>
+  <nav class="tabs">
+    <button data-view="games" class="active">Games</button>
+    <button data-view="standings">Standings</button>
+    <button data-view="team">Team</button>
+    <button data-view="h2h">H2H</button>
+    <button data-view="bracket">Bracket</button>
+    <button data-view="charts">Charts</button>
+    <button data-view="dashboard">Dashboard</button>
+    <button data-view="fantasy">Fantasy</button>
+    <button data-view="fantasy-team">Fantasy Team</button>
+    <span class="tab-underline"></span>
+  </nav>
+  <main>
+    <div id="view-games" class="view active"></div>
+    <div id="view-standings" class="view"></div>
+    <div id="view-team" class="view"></div>
+    <div id="view-h2h" class="view"></div>
+    <div id="view-bracket" class="view"></div>
+    <div id="view-charts" class="view"></div>
+    <div id="view-dashboard" class="view"></div>
+    <div id="view-fantasy" class="view"></div>
+    <div id="view-fantasy-team" class="view"></div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+<canvas id="confettiCanvas"></canvas>
+
+<!-- Config + Data -->
+<script src="js/config/config.js"></script>
+<script src="js/config/data.js"></script>
+<script src="js/data/team-advanced.js"></script>
+
+<!-- Core -->
+<script src="js/core/state.js"></script>
+<script src="js/core/team-helpers.js"></script>
+<script src="js/core/engine.js"></script>
+
+<!-- Utils -->
+<script src="js/utils/autocomplete.js"></script>
+<script src="js/utils/konfetti.js"></script>
+
+<!-- UI -->
+<script src="js/ui/header.js"></script>
+
+<!-- Views -->
+<script src="js/views/games.js"></script>
+<script src="js/views/standings.js"></script>
+<script src="js/views/dashboard.js"></script>
+<script src="js/views/h2h.js"></script>
+<script src="js/views/team.js"></script>
+<script src="js/views/charts.js"></script>
+<script src="js/views/bracket.js"></script>
+<script src="js/views/views.js"></script>
+<script src="js/data/player_predictions.js"></script>
+<script src="js/data/player_injuries.js"></script>
+<script src="js/data/player-gamelogs.js"></script>
+<script src="js/data/player-stats-2026.js"></script>
+<script src="js/data/player-trend-confidence.js"></script>
+<script src="js/data/coaches.js"></script>
+<script src="js/data/coach_stats.js"></script>
+<script src="js/data/game-boxscores.js"></script>
+<script src="js/views/fantasy.js"></script>
+<script src="js/views/fantasy-team.js"></script>
+
+<!-- App -->
+<script src="js/ui/app.js"></script>
+
+</body>
+</html>

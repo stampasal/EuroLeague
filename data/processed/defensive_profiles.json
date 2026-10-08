@@ -1,0 +1,3480 @@
+{
+  "2022": {
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 3160.0,
+        "min_allowed_total": 8203.17,
+        "games_count": 41,
+        "PIR_allowed_per_game": 77.073,
+        "PIR_allowed_per_100min": 38.522
+      },
+      "sos": {
+        "SOS_raw": 43.319,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.273
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 38.249,
+        "weight": 1.0,
+        "adj_final": 38.249,
+        "zscore_adj_final": -1.7774
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6418
+      }
+    },
+    "RED": {
+      "raw": {
+        "PIR_allowed_total": 2914.0,
+        "min_allowed_total": 6811.9,
+        "games_count": 34,
+        "PIR_allowed_per_game": 85.706,
+        "PIR_allowed_per_100min": 42.778
+      },
+      "sos": {
+        "SOS_raw": 43.231,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.185
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.593,
+        "weight": 1.0,
+        "adj_final": 42.593,
+        "zscore_adj_final": -0.2198
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.846,
+        "adj_final": 44.837,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.3998
+      }
+    },
+    "BER": {
+      "raw": {
+        "PIR_allowed_total": 3090.0,
+        "min_allowed_total": 6763.89,
+        "games_count": 34,
+        "PIR_allowed_per_game": 90.882,
+        "PIR_allowed_per_100min": 45.684
+      },
+      "sos": {
+        "SOS_raw": 43.052,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.006
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.678,
+        "weight": 1.0,
+        "adj_final": 45.678,
+        "zscore_adj_final": 0.8863
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 53.546,
+        "adj_final": 53.131,
+        "games_count": 34,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 2.4848
+      }
+    },
+    "MCO": {
+      "raw": {
+        "PIR_allowed_total": 3434.0,
+        "min_allowed_total": 8168.93,
+        "games_count": 41,
+        "PIR_allowed_per_game": 83.756,
+        "PIR_allowed_per_100min": 42.037
+      },
+      "sos": {
+        "SOS_raw": 43.365,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.319
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.718,
+        "weight": 1.0,
+        "adj_final": 41.718,
+        "zscore_adj_final": -0.5336
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.135,
+        "adj_final": 43.782,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7667
+      }
+    },
+    "TEL": {
+      "raw": {
+        "PIR_allowed_total": 3328.0,
+        "min_allowed_total": 7724.94,
+        "games_count": 39,
+        "PIR_allowed_per_game": 85.333,
+        "PIR_allowed_per_100min": 43.081
+      },
+      "sos": {
+        "SOS_raw": 43.13,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.084
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.997,
+        "weight": 1.0,
+        "adj_final": 42.997,
+        "zscore_adj_final": -0.075
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 50.472,
+        "adj_final": 50.564,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.5921
+      }
+    },
+    "ASV": {
+      "raw": {
+        "PIR_allowed_total": 3116.0,
+        "min_allowed_total": 6721.65,
+        "games_count": 34,
+        "PIR_allowed_per_game": 91.647,
+        "PIR_allowed_per_100min": 46.358
+      },
+      "sos": {
+        "SOS_raw": 43.433,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.387
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.971,
+        "weight": 1.0,
+        "adj_final": 45.971,
+        "zscore_adj_final": 0.9913
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.84,
+        "adj_final": 48.602,
+        "games_count": 71,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.9097
+      }
+    },
+    "MIL": {
+      "raw": {
+        "PIR_allowed_total": 2834.0,
+        "min_allowed_total": 6791.62,
+        "games_count": 34,
+        "PIR_allowed_per_game": 83.353,
+        "PIR_allowed_per_100min": 41.728
+      },
+      "sos": {
+        "SOS_raw": 43.255,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.209
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.519,
+        "weight": 1.0,
+        "adj_final": 41.519,
+        "zscore_adj_final": -0.6049
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.288,
+        "adj_final": 46.371,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.1337
+      }
+    },
+    "PAM": {
+      "raw": {
+        "PIR_allowed_total": 3332.0,
+        "min_allowed_total": 6764.12,
+        "games_count": 34,
+        "PIR_allowed_per_game": 98.0,
+        "PIR_allowed_per_100min": 49.26
+      },
+      "sos": {
+        "SOS_raw": 43.205,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.159
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.101,
+        "weight": 1.0,
+        "adj_final": 49.101,
+        "zscore_adj_final": 2.1136
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.575,
+        "adj_final": 45.383,
+        "games_count": 44,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.2099
+      }
+    },
+    "BAR": {
+      "raw": {
+        "PIR_allowed_total": 3050.0,
+        "min_allowed_total": 7778.69,
+        "games_count": 39,
+        "PIR_allowed_per_game": 78.205,
+        "PIR_allowed_per_100min": 39.21
+      },
+      "sos": {
+        "SOS_raw": 42.847,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": -0.199
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 39.409,
+        "weight": 1.0,
+        "adj_final": 39.409,
+        "zscore_adj_final": -1.3615
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.49,
+        "adj_final": 44.309,
+        "games_count": 78,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.5834
+      }
+    },
+    "MUN": {
+      "raw": {
+        "PIR_allowed_total": 3064.0,
+        "min_allowed_total": 6730.42,
+        "games_count": 34,
+        "PIR_allowed_per_game": 90.118,
+        "PIR_allowed_per_100min": 45.525
+      },
+      "sos": {
+        "SOS_raw": 43.358,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.312
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.213,
+        "weight": 1.0,
+        "adj_final": 45.213,
+        "zscore_adj_final": 0.7196
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.62,
+        "adj_final": 48.508,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.877
+      }
+    },
+    "OLY": {
+      "raw": {
+        "PIR_allowed_total": 3065.0,
+        "min_allowed_total": 8107.86,
+        "games_count": 41,
+        "PIR_allowed_per_game": 74.756,
+        "PIR_allowed_per_100min": 37.803
+      },
+      "sos": {
+        "SOS_raw": 42.966,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": -0.08
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 37.883,
+        "weight": 1.0,
+        "adj_final": 37.883,
+        "zscore_adj_final": -1.9086
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.347,
+        "adj_final": 42.32,
+        "games_count": 83,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2752
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 3368.0,
+        "min_allowed_total": 7747.5,
+        "games_count": 39,
+        "PIR_allowed_per_game": 86.359,
+        "PIR_allowed_per_100min": 43.472
+      },
+      "sos": {
+        "SOS_raw": 43.643,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.597
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.875,
+        "weight": 1.0,
+        "adj_final": 42.875,
+        "zscore_adj_final": -0.1187
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.261,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0955
+      }
+    },
+    "BAS": {
+      "raw": {
+        "PIR_allowed_total": 3037.0,
+        "min_allowed_total": 6807.36,
+        "games_count": 34,
+        "PIR_allowed_per_game": 89.324,
+        "PIR_allowed_per_100min": 44.613
+      },
+      "sos": {
+        "SOS_raw": 42.763,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": -0.283
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.896,
+        "weight": 1.0,
+        "adj_final": 44.896,
+        "zscore_adj_final": 0.6059
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.553,
+        "adj_final": 47.555,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.5455
+      }
+    },
+    "IST": {
+      "raw": {
+        "PIR_allowed_total": 2898.0,
+        "min_allowed_total": 6806.85,
+        "games_count": 34,
+        "PIR_allowed_per_game": 85.235,
+        "PIR_allowed_per_100min": 42.575
+      },
+      "sos": {
+        "SOS_raw": 42.802,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": -0.245
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.82,
+        "weight": 1.0,
+        "adj_final": 42.82,
+        "zscore_adj_final": -0.1384
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.227,
+        "adj_final": 43.858,
+        "games_count": 77,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7403
+      }
+    },
+    "VIR": {
+      "raw": {
+        "PIR_allowed_total": 3128.0,
+        "min_allowed_total": 6753.44,
+        "games_count": 34,
+        "PIR_allowed_per_game": 92.0,
+        "PIR_allowed_per_100min": 46.317
+      },
+      "sos": {
+        "SOS_raw": 43.114,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.068
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.249,
+        "weight": 1.0,
+        "adj_final": 46.249,
+        "zscore_adj_final": 1.091
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.173,
+        "adj_final": 47.023,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.3605
+      }
+    },
+    "ZAL": {
+      "raw": {
+        "PIR_allowed_total": 3157.0,
+        "min_allowed_total": 7342.33,
+        "games_count": 37,
+        "PIR_allowed_per_game": 85.324,
+        "PIR_allowed_per_100min": 42.997
+      },
+      "sos": {
+        "SOS_raw": 43.388,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.341
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.656,
+        "weight": 1.0,
+        "adj_final": 42.656,
+        "zscore_adj_final": -0.1972
+      },
+      "sample": {
+        "games_count": 37,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 43.437,
+        "adj_final": 43.472,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.8745
+      }
+    },
+    "ULK": {
+      "raw": {
+        "PIR_allowed_total": 3441.0,
+        "min_allowed_total": 7805.19,
+        "games_count": 39,
+        "PIR_allowed_per_game": 88.231,
+        "PIR_allowed_per_100min": 44.086
+      },
+      "sos": {
+        "SOS_raw": 43.868,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.822
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.264,
+        "weight": 1.0,
+        "adj_final": 43.264,
+        "zscore_adj_final": 0.0208
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2463
+      }
+    },
+    "PAN": {
+      "raw": {
+        "PIR_allowed_total": 3055.0,
+        "min_allowed_total": 6820.72,
+        "games_count": 34,
+        "PIR_allowed_per_game": 89.853,
+        "PIR_allowed_per_100min": 44.79
+      },
+      "sos": {
+        "SOS_raw": 43.217,
+        "league_mean_OS": 43.046,
+        "SOS_adjustment": 0.171
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.619,
+        "weight": 1.0,
+        "adj_final": 44.619,
+        "zscore_adj_final": 0.5066
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.159,
+        "adj_final": 44.808,
+        "games_count": 85,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4099
+      }
+    }
+  },
+  "2023": {
+    "OLY": {
+      "raw": {
+        "PIR_allowed_total": 3230.0,
+        "min_allowed_total": 8218.98,
+        "games_count": 41,
+        "PIR_allowed_per_game": 78.78,
+        "PIR_allowed_per_100min": 39.299
+      },
+      "sos": {
+        "SOS_raw": 44.069,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.303
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 38.996,
+        "weight": 1.0,
+        "adj_final": 38.996,
+        "zscore_adj_final": -1.5688
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.347,
+        "adj_final": 42.32,
+        "games_count": 83,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2752
+      }
+    },
+    "MUN": {
+      "raw": {
+        "PIR_allowed_total": 3000.0,
+        "min_allowed_total": 6870.78,
+        "games_count": 34,
+        "PIR_allowed_per_game": 88.235,
+        "PIR_allowed_per_100min": 43.663
+      },
+      "sos": {
+        "SOS_raw": 43.911,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.145
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.518,
+        "weight": 1.0,
+        "adj_final": 43.518,
+        "zscore_adj_final": -0.1269
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.62,
+        "adj_final": 48.508,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.877
+      }
+    },
+    "ULK": {
+      "raw": {
+        "PIR_allowed_total": 3520.0,
+        "min_allowed_total": 8269.15,
+        "games_count": 41,
+        "PIR_allowed_per_game": 85.854,
+        "PIR_allowed_per_100min": 42.568
+      },
+      "sos": {
+        "SOS_raw": 43.857,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.091
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.477,
+        "weight": 1.0,
+        "adj_final": 42.477,
+        "zscore_adj_final": -0.4588
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2463
+      }
+    },
+    "TEL": {
+      "raw": {
+        "PIR_allowed_total": 3700.0,
+        "min_allowed_total": 7913.26,
+        "games_count": 40,
+        "PIR_allowed_per_game": 92.5,
+        "PIR_allowed_per_100min": 46.757
+      },
+      "sos": {
+        "SOS_raw": 43.911,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.145
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.612,
+        "weight": 1.0,
+        "adj_final": 46.612,
+        "zscore_adj_final": 0.8597
+      },
+      "sample": {
+        "games_count": 40,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 50.472,
+        "adj_final": 50.564,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.5921
+      }
+    },
+    "BAS": {
+      "raw": {
+        "PIR_allowed_total": 3777.0,
+        "min_allowed_total": 7754.45,
+        "games_count": 39,
+        "PIR_allowed_per_game": 96.846,
+        "PIR_allowed_per_100min": 48.708
+      },
+      "sos": {
+        "SOS_raw": 44.326,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.56
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.148,
+        "weight": 1.0,
+        "adj_final": 48.148,
+        "zscore_adj_final": 1.3495
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.553,
+        "adj_final": 47.555,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.5455
+      }
+    },
+    "BAR": {
+      "raw": {
+        "PIR_allowed_total": 3235.0,
+        "min_allowed_total": 7721.3,
+        "games_count": 39,
+        "PIR_allowed_per_game": 82.949,
+        "PIR_allowed_per_100min": 41.897
+      },
+      "sos": {
+        "SOS_raw": 43.776,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.01
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.887,
+        "weight": 1.0,
+        "adj_final": 41.887,
+        "zscore_adj_final": -0.6469
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.49,
+        "adj_final": 44.309,
+        "games_count": 78,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.5834
+      }
+    },
+    "BER": {
+      "raw": {
+        "PIR_allowed_total": 3352.0,
+        "min_allowed_total": 6754.36,
+        "games_count": 34,
+        "PIR_allowed_per_game": 98.588,
+        "PIR_allowed_per_100min": 49.627
+      },
+      "sos": {
+        "SOS_raw": 44.089,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.323
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.304,
+        "weight": 1.0,
+        "adj_final": 49.304,
+        "zscore_adj_final": 1.7181
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 53.546,
+        "adj_final": 53.131,
+        "games_count": 34,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 2.4848
+      }
+    },
+    "ZAL": {
+      "raw": {
+        "PIR_allowed_total": 3016.0,
+        "min_allowed_total": 6721.55,
+        "games_count": 34,
+        "PIR_allowed_per_game": 88.706,
+        "PIR_allowed_per_100min": 44.871
+      },
+      "sos": {
+        "SOS_raw": 43.979,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.213
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.658,
+        "weight": 1.0,
+        "adj_final": 44.658,
+        "zscore_adj_final": 0.2366
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 43.437,
+        "adj_final": 43.472,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.8745
+      }
+    },
+    "VIR": {
+      "raw": {
+        "PIR_allowed_total": 3216.0,
+        "min_allowed_total": 7122.33,
+        "games_count": 36,
+        "PIR_allowed_per_game": 89.333,
+        "PIR_allowed_per_100min": 45.154
+      },
+      "sos": {
+        "SOS_raw": 43.988,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.222
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.932,
+        "weight": 1.0,
+        "adj_final": 44.932,
+        "zscore_adj_final": 0.324
+      },
+      "sample": {
+        "games_count": 36,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.173,
+        "adj_final": 47.023,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.3605
+      }
+    },
+    "PAM": {
+      "raw": {
+        "PIR_allowed_total": 2988.0,
+        "min_allowed_total": 6743.84,
+        "games_count": 34,
+        "PIR_allowed_per_game": 87.882,
+        "PIR_allowed_per_100min": 44.307
+      },
+      "sos": {
+        "SOS_raw": 44.097,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.331
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.976,
+        "weight": 1.0,
+        "adj_final": 43.976,
+        "zscore_adj_final": 0.0192
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.575,
+        "adj_final": 45.383,
+        "games_count": 44,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.2099
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 3078.0,
+        "min_allowed_total": 6817.82,
+        "games_count": 34,
+        "PIR_allowed_per_game": 90.529,
+        "PIR_allowed_per_100min": 45.146
+      },
+      "sos": {
+        "SOS_raw": 43.751,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": -0.015
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.161,
+        "weight": 1.0,
+        "adj_final": 45.161,
+        "zscore_adj_final": 0.397
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.261,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0955
+      }
+    },
+    "IST": {
+      "raw": {
+        "PIR_allowed_total": 3214.0,
+        "min_allowed_total": 7049.93,
+        "games_count": 35,
+        "PIR_allowed_per_game": 91.829,
+        "PIR_allowed_per_100min": 45.589
+      },
+      "sos": {
+        "SOS_raw": 43.556,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": -0.21
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.799,
+        "weight": 1.0,
+        "adj_final": 45.799,
+        "zscore_adj_final": 0.6004
+      },
+      "sample": {
+        "games_count": 35,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.227,
+        "adj_final": 43.858,
+        "games_count": 77,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7403
+      }
+    },
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 3094.0,
+        "min_allowed_total": 7879.87,
+        "games_count": 39,
+        "PIR_allowed_per_game": 79.333,
+        "PIR_allowed_per_100min": 39.265
+      },
+      "sos": {
+        "SOS_raw": 43.614,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": -0.152
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 39.417,
+        "weight": 1.0,
+        "adj_final": 39.417,
+        "zscore_adj_final": -1.4345
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6418
+      }
+    },
+    "ASV": {
+      "raw": {
+        "PIR_allowed_total": 3233.0,
+        "min_allowed_total": 6760.58,
+        "games_count": 34,
+        "PIR_allowed_per_game": 95.088,
+        "PIR_allowed_per_100min": 47.821
+      },
+      "sos": {
+        "SOS_raw": 43.895,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.129
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.692,
+        "weight": 1.0,
+        "adj_final": 47.692,
+        "zscore_adj_final": 1.2041
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.84,
+        "adj_final": 48.602,
+        "games_count": 71,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.9097
+      }
+    },
+    "MCO": {
+      "raw": {
+        "PIR_allowed_total": 3210.0,
+        "min_allowed_total": 7769.8,
+        "games_count": 39,
+        "PIR_allowed_per_game": 82.308,
+        "PIR_allowed_per_100min": 41.314
+      },
+      "sos": {
+        "SOS_raw": 43.833,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.067
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.247,
+        "weight": 1.0,
+        "adj_final": 41.247,
+        "zscore_adj_final": -0.851
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.135,
+        "adj_final": 43.782,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7667
+      }
+    },
+    "MIL": {
+      "raw": {
+        "PIR_allowed_total": 2821.0,
+        "min_allowed_total": 6798.18,
+        "games_count": 34,
+        "PIR_allowed_per_game": 82.971,
+        "PIR_allowed_per_100min": 41.496
+      },
+      "sos": {
+        "SOS_raw": 43.877,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.111
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.385,
+        "weight": 1.0,
+        "adj_final": 41.385,
+        "zscore_adj_final": -0.807
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.288,
+        "adj_final": 46.371,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.1337
+      }
+    },
+    "RED": {
+      "raw": {
+        "PIR_allowed_total": 3154.0,
+        "min_allowed_total": 6742.55,
+        "games_count": 34,
+        "PIR_allowed_per_game": 92.765,
+        "PIR_allowed_per_100min": 46.778
+      },
+      "sos": {
+        "SOS_raw": 43.764,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": -0.002
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.78,
+        "weight": 1.0,
+        "adj_final": 46.78,
+        "zscore_adj_final": 0.9133
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.846,
+        "adj_final": 44.837,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.3998
+      }
+    },
+    "PAN": {
+      "raw": {
+        "PIR_allowed_total": 3181.0,
+        "min_allowed_total": 8134.39,
+        "games_count": 41,
+        "PIR_allowed_per_game": 77.585,
+        "PIR_allowed_per_100min": 39.106
+      },
+      "sos": {
+        "SOS_raw": 44.375,
+        "league_mean_OS": 43.766,
+        "SOS_adjustment": 0.609
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 38.497,
+        "weight": 1.0,
+        "adj_final": 38.497,
+        "zscore_adj_final": -1.7279
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.159,
+        "adj_final": 44.808,
+        "games_count": 85,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4099
+      }
+    }
+  },
+  "2024": {
+    "BER": {
+      "raw": {
+        "PIR_allowed_total": 3654.0,
+        "min_allowed_total": 6824.01,
+        "games_count": 34,
+        "PIR_allowed_per_game": 107.471,
+        "PIR_allowed_per_100min": 53.546
+      },
+      "sos": {
+        "SOS_raw": 45.638,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.415
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 53.131,
+        "weight": 1.0,
+        "adj_final": 53.131,
+        "zscore_adj_final": 2.4437
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 53.546,
+        "adj_final": 53.131,
+        "games_count": 34,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 2.4848
+      }
+    },
+    "MUN": {
+      "raw": {
+        "PIR_allowed_total": 3575.0,
+        "min_allowed_total": 7150.18,
+        "games_count": 36,
+        "PIR_allowed_per_game": 99.306,
+        "PIR_allowed_per_100min": 49.999
+      },
+      "sos": {
+        "SOS_raw": 45.208,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": -0.014
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 50.013,
+        "weight": 1.0,
+        "adj_final": 50.013,
+        "zscore_adj_final": 1.4643
+      },
+      "sample": {
+        "games_count": 36,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.62,
+        "adj_final": 48.508,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.877
+      }
+    },
+    "PRS": {
+      "raw": {
+        "PIR_allowed_total": 3607.0,
+        "min_allowed_total": 7545.97,
+        "games_count": 38,
+        "PIR_allowed_per_game": 94.921,
+        "PIR_allowed_per_100min": 47.8
+      },
+      "sos": {
+        "SOS_raw": 45.349,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.126
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.674,
+        "weight": 1.0,
+        "adj_final": 47.674,
+        "zscore_adj_final": 0.7296
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 49.447,
+        "adj_final": 49.349,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.1695
+      }
+    },
+    "ASV": {
+      "raw": {
+        "PIR_allowed_total": 3138.0,
+        "min_allowed_total": 6560.56,
+        "games_count": 33,
+        "PIR_allowed_per_game": 95.091,
+        "PIR_allowed_per_100min": 47.831
+      },
+      "sos": {
+        "SOS_raw": 45.313,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.09
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.741,
+        "weight": 1.0,
+        "adj_final": 47.741,
+        "zscore_adj_final": 0.7507
+      },
+      "sample": {
+        "games_count": 33,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.84,
+        "adj_final": 48.602,
+        "games_count": 71,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.9097
+      }
+    },
+    "TEL": {
+      "raw": {
+        "PIR_allowed_total": 3378.0,
+        "min_allowed_total": 6712.22,
+        "games_count": 34,
+        "PIR_allowed_per_game": 99.353,
+        "PIR_allowed_per_100min": 50.326
+      },
+      "sos": {
+        "SOS_raw": 45.14,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": -0.082
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 50.408,
+        "weight": 1.0,
+        "adj_final": 50.408,
+        "zscore_adj_final": 1.5884
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 50.472,
+        "adj_final": 50.564,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.5921
+      }
+    },
+    "VIR": {
+      "raw": {
+        "PIR_allowed_total": 3105.0,
+        "min_allowed_total": 6767.07,
+        "games_count": 34,
+        "PIR_allowed_per_game": 91.324,
+        "PIR_allowed_per_100min": 45.884
+      },
+      "sos": {
+        "SOS_raw": 45.387,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.164
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.72,
+        "weight": 1.0,
+        "adj_final": 45.72,
+        "zscore_adj_final": 0.1158
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.173,
+        "adj_final": 47.023,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.3605
+      }
+    },
+    "BAR": {
+      "raw": {
+        "PIR_allowed_total": 3388.0,
+        "min_allowed_total": 7604.56,
+        "games_count": 38,
+        "PIR_allowed_per_game": 89.158,
+        "PIR_allowed_per_100min": 44.552
+      },
+      "sos": {
+        "SOS_raw": 45.428,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.206
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.346,
+        "weight": 1.0,
+        "adj_final": 44.346,
+        "zscore_adj_final": -0.3158
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.49,
+        "adj_final": 44.309,
+        "games_count": 78,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.5834
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 2965.0,
+        "min_allowed_total": 6731.62,
+        "games_count": 34,
+        "PIR_allowed_per_game": 87.206,
+        "PIR_allowed_per_100min": 44.046
+      },
+      "sos": {
+        "SOS_raw": 45.252,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.029
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.017,
+        "weight": 1.0,
+        "adj_final": 44.017,
+        "zscore_adj_final": -0.4191
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.261,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0955
+      }
+    },
+    "IST": {
+      "raw": {
+        "PIR_allowed_total": 3281.0,
+        "min_allowed_total": 7739.83,
+        "games_count": 39,
+        "PIR_allowed_per_game": 84.128,
+        "PIR_allowed_per_100min": 42.391
+      },
+      "sos": {
+        "SOS_raw": 45.702,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.48
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.911,
+        "weight": 1.0,
+        "adj_final": 41.911,
+        "zscore_adj_final": -1.0806
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.227,
+        "adj_final": 43.858,
+        "games_count": 77,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7403
+      }
+    },
+    "MIL": {
+      "raw": {
+        "PIR_allowed_total": 3073.0,
+        "min_allowed_total": 6737.03,
+        "games_count": 34,
+        "PIR_allowed_per_game": 90.382,
+        "PIR_allowed_per_100min": 45.614
+      },
+      "sos": {
+        "SOS_raw": 45.09,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": -0.132
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.746,
+        "weight": 1.0,
+        "adj_final": 45.746,
+        "zscore_adj_final": 0.124
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.288,
+        "adj_final": 46.371,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.1337
+      }
+    },
+    "BAS": {
+      "raw": {
+        "PIR_allowed_total": 3061.0,
+        "min_allowed_total": 6724.52,
+        "games_count": 34,
+        "PIR_allowed_per_game": 90.029,
+        "PIR_allowed_per_100min": 45.52
+      },
+      "sos": {
+        "SOS_raw": 45.214,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": -0.008
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.528,
+        "weight": 1.0,
+        "adj_final": 45.528,
+        "zscore_adj_final": 0.0555
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.553,
+        "adj_final": 47.555,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.5455
+      }
+    },
+    "ZAL": {
+      "raw": {
+        "PIR_allowed_total": 2917.0,
+        "min_allowed_total": 6740.81,
+        "games_count": 34,
+        "PIR_allowed_per_game": 85.794,
+        "PIR_allowed_per_100min": 43.274
+      },
+      "sos": {
+        "SOS_raw": 45.615,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.393
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.881,
+        "weight": 1.0,
+        "adj_final": 42.881,
+        "zscore_adj_final": -0.776
+      },
+      "sample": {
+        "games_count": 34,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 43.437,
+        "adj_final": 43.472,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.8745
+      }
+    },
+    "RED": {
+      "raw": {
+        "PIR_allowed_total": 3114.0,
+        "min_allowed_total": 7073.18,
+        "games_count": 35,
+        "PIR_allowed_per_game": 88.971,
+        "PIR_allowed_per_100min": 44.025
+      },
+      "sos": {
+        "SOS_raw": 45.297,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.074
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.951,
+        "weight": 1.0,
+        "adj_final": 43.951,
+        "zscore_adj_final": -0.4398
+      },
+      "sample": {
+        "games_count": 35,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.846,
+        "adj_final": 44.837,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.3998
+      }
+    },
+    "ULK": {
+      "raw": {
+        "PIR_allowed_total": 3313.0,
+        "min_allowed_total": 7727.61,
+        "games_count": 39,
+        "PIR_allowed_per_game": 84.949,
+        "PIR_allowed_per_100min": 42.872
+      },
+      "sos": {
+        "SOS_raw": 45.256,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.034
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.838,
+        "weight": 1.0,
+        "adj_final": 42.838,
+        "zscore_adj_final": -0.7895
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2463
+      }
+    },
+    "OLY": {
+      "raw": {
+        "PIR_allowed_total": 3452.0,
+        "min_allowed_total": 7975.68,
+        "games_count": 40,
+        "PIR_allowed_per_game": 86.3,
+        "PIR_allowed_per_100min": 43.282
+      },
+      "sos": {
+        "SOS_raw": 45.335,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.113
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.169,
+        "weight": 1.0,
+        "adj_final": 43.169,
+        "zscore_adj_final": -0.6855
+      },
+      "sample": {
+        "games_count": 40,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.347,
+        "adj_final": 42.32,
+        "games_count": 83,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2752
+      }
+    },
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 3296.0,
+        "min_allowed_total": 7968.09,
+        "games_count": 40,
+        "PIR_allowed_per_game": 82.4,
+        "PIR_allowed_per_100min": 41.365
+      },
+      "sos": {
+        "SOS_raw": 45.532,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.309
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.056,
+        "weight": 1.0,
+        "adj_final": 41.056,
+        "zscore_adj_final": -1.3492
+      },
+      "sample": {
+        "games_count": 40,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6418
+      }
+    },
+    "PAN": {
+      "raw": {
+        "PIR_allowed_total": 3574.0,
+        "min_allowed_total": 8123.01,
+        "games_count": 41,
+        "PIR_allowed_per_game": 87.171,
+        "PIR_allowed_per_100min": 43.998
+      },
+      "sos": {
+        "SOS_raw": 45.496,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.274
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 43.724,
+        "weight": 1.0,
+        "adj_final": 43.724,
+        "zscore_adj_final": -0.5112
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.159,
+        "adj_final": 44.808,
+        "games_count": 85,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4099
+      }
+    },
+    "MCO": {
+      "raw": {
+        "PIR_allowed_total": 3496.0,
+        "min_allowed_total": 8164.64,
+        "games_count": 41,
+        "PIR_allowed_per_game": 85.268,
+        "PIR_allowed_per_100min": 42.819
+      },
+      "sos": {
+        "SOS_raw": 45.572,
+        "league_mean_OS": 45.222,
+        "SOS_adjustment": 0.35
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.469,
+        "weight": 1.0,
+        "adj_final": 42.469,
+        "zscore_adj_final": -0.9054
+      },
+      "sample": {
+        "games_count": 41,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.135,
+        "adj_final": 43.782,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7667
+      }
+    }
+  },
+  "2025": {
+    "MUN": {
+      "raw": {
+        "PIR_allowed_total": 3557.0,
+        "min_allowed_total": 7529.68,
+        "games_count": 38,
+        "PIR_allowed_per_game": 93.605,
+        "PIR_allowed_per_100min": 47.24
+      },
+      "sos": {
+        "SOS_raw": 46.34,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.237
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.003,
+        "weight": 1.0,
+        "adj_final": 47.003,
+        "zscore_adj_final": 0.2776
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.62,
+        "adj_final": 48.508,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.877
+      }
+    },
+    "ASV": {
+      "raw": {
+        "PIR_allowed_total": 3787.0,
+        "min_allowed_total": 7596.94,
+        "games_count": 38,
+        "PIR_allowed_per_game": 99.658,
+        "PIR_allowed_per_100min": 49.849
+      },
+      "sos": {
+        "SOS_raw": 46.488,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.385
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.464,
+        "weight": 1.0,
+        "adj_final": 49.464,
+        "zscore_adj_final": 1.1662
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.84,
+        "adj_final": 48.602,
+        "games_count": 71,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.9097
+      }
+    },
+    "MIL": {
+      "raw": {
+        "PIR_allowed_total": 3555.0,
+        "min_allowed_total": 7570.03,
+        "games_count": 38,
+        "PIR_allowed_per_game": 93.553,
+        "PIR_allowed_per_100min": 46.962
+      },
+      "sos": {
+        "SOS_raw": 46.069,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.034
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.996,
+        "weight": 1.0,
+        "adj_final": 46.996,
+        "zscore_adj_final": 0.2751
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.288,
+        "adj_final": 46.371,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.1337
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 3703.0,
+        "min_allowed_total": 7601.78,
+        "games_count": 38,
+        "PIR_allowed_per_game": 97.447,
+        "PIR_allowed_per_100min": 48.712
+      },
+      "sos": {
+        "SOS_raw": 46.311,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.208
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.504,
+        "weight": 1.0,
+        "adj_final": 48.504,
+        "zscore_adj_final": 0.8196
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.261,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0955
+      }
+    },
+    "MCO": {
+      "raw": {
+        "PIR_allowed_total": 3892.0,
+        "min_allowed_total": 8563.16,
+        "games_count": 43,
+        "PIR_allowed_per_game": 90.512,
+        "PIR_allowed_per_100min": 45.451
+      },
+      "sos": {
+        "SOS_raw": 46.46,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.357
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.094,
+        "weight": 1.0,
+        "adj_final": 45.094,
+        "zscore_adj_final": -0.4117
+      },
+      "sample": {
+        "games_count": 43,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": true,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.135,
+        "adj_final": 43.782,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7667
+      }
+    },
+    "PAM": {
+      "raw": {
+        "PIR_allowed_total": 3999.0,
+        "min_allowed_total": 8774.6,
+        "games_count": 44,
+        "PIR_allowed_per_game": 90.886,
+        "PIR_allowed_per_100min": 45.575
+      },
+      "sos": {
+        "SOS_raw": 46.295,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.192
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.383,
+        "weight": 1.0,
+        "adj_final": 45.383,
+        "zscore_adj_final": -0.3073
+      },
+      "sample": {
+        "games_count": 44,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.575,
+        "adj_final": 45.383,
+        "games_count": 44,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.2099
+      }
+    },
+    "BAR": {
+      "raw": {
+        "PIR_allowed_total": 3571.0,
+        "min_allowed_total": 8037.79,
+        "games_count": 40,
+        "PIR_allowed_per_game": 89.275,
+        "PIR_allowed_per_100min": 44.428
+      },
+      "sos": {
+        "SOS_raw": 46.258,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.155
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.273,
+        "weight": 1.0,
+        "adj_final": 44.273,
+        "zscore_adj_final": -0.7081
+      },
+      "sample": {
+        "games_count": 40,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.49,
+        "adj_final": 44.309,
+        "games_count": 78,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.5834
+      }
+    },
+    "IST": {
+      "raw": {
+        "PIR_allowed_total": 3530.0,
+        "min_allowed_total": 7663.38,
+        "games_count": 38,
+        "PIR_allowed_per_game": 92.895,
+        "PIR_allowed_per_100min": 46.063
+      },
+      "sos": {
+        "SOS_raw": 46.362,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.259
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.804,
+        "weight": 1.0,
+        "adj_final": 45.804,
+        "zscore_adj_final": -0.1553
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.227,
+        "adj_final": 43.858,
+        "games_count": 77,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7403
+      }
+    },
+    "DUB": {
+      "raw": {
+        "PIR_allowed_total": 3569.0,
+        "min_allowed_total": 7574.4,
+        "games_count": 38,
+        "PIR_allowed_per_game": 93.921,
+        "PIR_allowed_per_100min": 47.119
+      },
+      "sos": {
+        "SOS_raw": 46.005,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.098
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.217,
+        "weight": 1.0,
+        "adj_final": 47.217,
+        "zscore_adj_final": 0.3549
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.119,
+        "adj_final": 47.217,
+        "games_count": 38,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.428
+      }
+    },
+    "HTA": {
+      "raw": {
+        "PIR_allowed_total": 3774.0,
+        "min_allowed_total": 8375.71,
+        "games_count": 42,
+        "PIR_allowed_per_game": 89.857,
+        "PIR_allowed_per_100min": 45.059
+      },
+      "sos": {
+        "SOS_raw": 46.465,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.362
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.697,
+        "weight": 1.0,
+        "adj_final": 44.697,
+        "zscore_adj_final": -0.555
+      },
+      "sample": {
+        "games_count": 42,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.059,
+        "adj_final": 44.697,
+        "games_count": 42,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4485
+      }
+    },
+    "ZAL": {
+      "raw": {
+        "PIR_allowed_total": 3669.0,
+        "min_allowed_total": 8415.11,
+        "games_count": 42,
+        "PIR_allowed_per_game": 87.357,
+        "PIR_allowed_per_100min": 43.6
+      },
+      "sos": {
+        "SOS_raw": 45.64,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.463
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 44.063,
+        "weight": 1.0,
+        "adj_final": 44.063,
+        "zscore_adj_final": -0.7839
+      },
+      "sample": {
+        "games_count": 42,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 43.437,
+        "adj_final": 43.472,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.8745
+      }
+    },
+    "BAS": {
+      "raw": {
+        "PIR_allowed_total": 3775.0,
+        "min_allowed_total": 7613.12,
+        "games_count": 38,
+        "PIR_allowed_per_game": 99.342,
+        "PIR_allowed_per_100min": 49.585
+      },
+      "sos": {
+        "SOS_raw": 46.107,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.004
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.581,
+        "weight": 1.0,
+        "adj_final": 49.581,
+        "zscore_adj_final": 1.2085
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.553,
+        "adj_final": 47.555,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.5455
+      }
+    },
+    "TEL": {
+      "raw": {
+        "PIR_allowed_total": 3841.0,
+        "min_allowed_total": 7588.14,
+        "games_count": 38,
+        "PIR_allowed_per_game": 101.079,
+        "PIR_allowed_per_100min": 50.618
+      },
+      "sos": {
+        "SOS_raw": 46.001,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.103
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 50.721,
+        "weight": 1.0,
+        "adj_final": 50.721,
+        "zscore_adj_final": 1.6201
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 50.472,
+        "adj_final": 50.564,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.5921
+      }
+    },
+    "OLY": {
+      "raw": {
+        "PIR_allowed_total": 3563.0,
+        "min_allowed_total": 8603.56,
+        "games_count": 43,
+        "PIR_allowed_per_game": 82.86,
+        "PIR_allowed_per_100min": 41.413
+      },
+      "sos": {
+        "SOS_raw": 46.044,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.059
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.472,
+        "weight": 1.0,
+        "adj_final": 41.472,
+        "zscore_adj_final": -1.7194
+      },
+      "sample": {
+        "games_count": 43,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.347,
+        "adj_final": 42.32,
+        "games_count": 83,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2752
+      }
+    },
+    "PAN": {
+      "raw": {
+        "PIR_allowed_total": 4051.0,
+        "min_allowed_total": 8745.94,
+        "games_count": 44,
+        "PIR_allowed_per_game": 92.068,
+        "PIR_allowed_per_100min": 46.319
+      },
+      "sos": {
+        "SOS_raw": 46.53,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.426
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.893,
+        "weight": 1.0,
+        "adj_final": 45.893,
+        "zscore_adj_final": -0.1232
+      },
+      "sample": {
+        "games_count": 44,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.159,
+        "adj_final": 44.808,
+        "games_count": 85,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4099
+      }
+    },
+    "VIR": {
+      "raw": {
+        "PIR_allowed_total": 3645.0,
+        "min_allowed_total": 7521.37,
+        "games_count": 38,
+        "PIR_allowed_per_game": 95.921,
+        "PIR_allowed_per_100min": 48.462
+      },
+      "sos": {
+        "SOS_raw": 46.24,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.136
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.326,
+        "weight": 1.0,
+        "adj_final": 48.326,
+        "zscore_adj_final": 0.7553
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.173,
+        "adj_final": 47.023,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.3605
+      }
+    },
+    "RED": {
+      "raw": {
+        "PIR_allowed_total": 3564.0,
+        "min_allowed_total": 7804.43,
+        "games_count": 39,
+        "PIR_allowed_per_game": 91.385,
+        "PIR_allowed_per_100min": 45.666
+      },
+      "sos": {
+        "SOS_raw": 46.047,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": -0.056
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.722,
+        "weight": 1.0,
+        "adj_final": 45.722,
+        "zscore_adj_final": -0.1849
+      },
+      "sample": {
+        "games_count": 39,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.846,
+        "adj_final": 44.837,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.3998
+      }
+    },
+    "ULK": {
+      "raw": {
+        "PIR_allowed_total": 3622.0,
+        "min_allowed_total": 8530.56,
+        "games_count": 43,
+        "PIR_allowed_per_game": 84.233,
+        "PIR_allowed_per_100min": 42.459
+      },
+      "sos": {
+        "SOS_raw": 46.595,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.492
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.967,
+        "weight": 1.0,
+        "adj_final": 41.967,
+        "zscore_adj_final": -1.5407
+      },
+      "sample": {
+        "games_count": 43,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2463
+      }
+    },
+    "PRS": {
+      "raw": {
+        "PIR_allowed_total": 3839.0,
+        "min_allowed_total": 7513.71,
+        "games_count": 38,
+        "PIR_allowed_per_game": 101.026,
+        "PIR_allowed_per_100min": 51.093
+      },
+      "sos": {
+        "SOS_raw": 46.171,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.068
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 51.025,
+        "weight": 1.0,
+        "adj_final": 51.025,
+        "zscore_adj_final": 1.7298
+      },
+      "sample": {
+        "games_count": 38,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 49.447,
+        "adj_final": 49.349,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.1695
+      }
+    },
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 3619.0,
+        "min_allowed_total": 8689.62,
+        "games_count": 44,
+        "PIR_allowed_per_game": 82.25,
+        "PIR_allowed_per_100min": 41.647
+      },
+      "sos": {
+        "SOS_raw": 46.273,
+        "league_mean_OS": 46.103,
+        "SOS_adjustment": 0.17
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 41.477,
+        "weight": 1.0,
+        "adj_final": 41.477,
+        "zscore_adj_final": -1.7176
+      },
+      "sample": {
+        "games_count": 44,
+        "low_sample": false,
+        "sample_quality": "high",
+        "use_pooled_fallback": false
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6418
+      }
+    }
+  },
+  "2026": {
+    "RED": {
+      "raw": {
+        "PIR_allowed_total": 266.0,
+        "min_allowed_total": 593.76,
+        "games_count": 3,
+        "PIR_allowed_per_game": 88.667,
+        "PIR_allowed_per_100min": 44.799
+      },
+      "sos": {
+        "SOS_raw": 46.353,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -0.243
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.042,
+        "weight": 0.2,
+        "adj_final": 46.289,
+        "zscore_adj_final": -0.3659
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.846,
+        "adj_final": 44.837,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.3998
+      }
+    },
+    "OLY": {
+      "raw": {
+        "PIR_allowed_total": 290.0,
+        "min_allowed_total": 589.52,
+        "games_count": 3,
+        "PIR_allowed_per_game": 96.667,
+        "PIR_allowed_per_100min": 49.193
+      },
+      "sos": {
+        "SOS_raw": 45.978,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -0.618
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.811,
+        "weight": 0.2,
+        "adj_final": 47.243,
+        "zscore_adj_final": 0.7542
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.347,
+        "adj_final": 42.32,
+        "games_count": 83,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2752
+      }
+    },
+    "PRS": {
+      "raw": {
+        "PIR_allowed_total": 314.0,
+        "min_allowed_total": 592.02,
+        "games_count": 3,
+        "PIR_allowed_per_game": 104.667,
+        "PIR_allowed_per_100min": 53.039
+      },
+      "sos": {
+        "SOS_raw": 53.569,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 6.973
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.066,
+        "weight": 0.2,
+        "adj_final": 46.494,
+        "zscore_adj_final": -0.1252
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 49.447,
+        "adj_final": 49.349,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.1695
+      }
+    },
+    "ASV": {
+      "raw": {
+        "PIR_allowed_total": 320.0,
+        "min_allowed_total": 592.09,
+        "games_count": 3,
+        "PIR_allowed_per_game": 106.667,
+        "PIR_allowed_per_100min": 54.046
+      },
+      "sos": {
+        "SOS_raw": 52.583,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 5.987
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.059,
+        "weight": 0.2,
+        "adj_final": 46.892,
+        "zscore_adj_final": 0.3421
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.84,
+        "adj_final": 48.602,
+        "games_count": 71,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.9097
+      }
+    },
+    "TEL": {
+      "raw": {
+        "PIR_allowed_total": 301.0,
+        "min_allowed_total": 592.63,
+        "games_count": 3,
+        "PIR_allowed_per_game": 100.333,
+        "PIR_allowed_per_100min": 50.791
+      },
+      "sos": {
+        "SOS_raw": 48.716,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 2.12
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.671,
+        "weight": 0.2,
+        "adj_final": 47.015,
+        "zscore_adj_final": 0.4865
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 50.472,
+        "adj_final": 50.564,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 1.5921
+      }
+    },
+    "DUB": {
+      "raw": {
+        "PIR_allowed_total": 229.0,
+        "min_allowed_total": 592.1,
+        "games_count": 3,
+        "PIR_allowed_per_game": 76.333,
+        "PIR_allowed_per_100min": 38.676
+      },
+      "sos": {
+        "SOS_raw": 46.486,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -0.11
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 38.786,
+        "weight": 0.2,
+        "adj_final": 45.038,
+        "zscore_adj_final": -1.8348
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.119,
+        "adj_final": 47.217,
+        "games_count": 38,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.428
+      }
+    },
+    "IST": {
+      "raw": {
+        "PIR_allowed_total": 258.0,
+        "min_allowed_total": 596.91,
+        "games_count": 3,
+        "PIR_allowed_per_game": 86.0,
+        "PIR_allowed_per_100min": 43.223
+      },
+      "sos": {
+        "SOS_raw": 43.723,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -2.873
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 46.096,
+        "weight": 0.2,
+        "adj_final": 46.5,
+        "zscore_adj_final": -0.1182
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.227,
+        "adj_final": 43.858,
+        "games_count": 77,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.7403
+      }
+    },
+    "HTA": {
+      "raw": {
+        "PIR_allowed_total": 277.0,
+        "min_allowed_total": 597.42,
+        "games_count": 3,
+        "PIR_allowed_per_game": 92.333,
+        "PIR_allowed_per_100min": 46.366
+      },
+      "sos": {
+        "SOS_raw": 43.105,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -3.491
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.857,
+        "weight": 0.2,
+        "adj_final": 47.252,
+        "zscore_adj_final": 0.7648
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.059,
+        "adj_final": 44.697,
+        "games_count": 42,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4485
+      }
+    },
+    "PAN": {
+      "raw": {
+        "PIR_allowed_total": 188.0,
+        "min_allowed_total": 597.67,
+        "games_count": 3,
+        "PIR_allowed_per_game": 62.667,
+        "PIR_allowed_per_100min": 31.455
+      },
+      "sos": {
+        "SOS_raw": 38.939,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -7.657
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 39.112,
+        "weight": 0.2,
+        "adj_final": 45.103,
+        "zscore_adj_final": -1.7585
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.159,
+        "adj_final": 44.808,
+        "games_count": 85,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.4099
+      }
+    },
+    "PAM": {
+      "raw": {
+        "PIR_allowed_total": 271.0,
+        "min_allowed_total": 592.16,
+        "games_count": 3,
+        "PIR_allowed_per_game": 90.333,
+        "PIR_allowed_per_100min": 45.765
+      },
+      "sos": {
+        "SOS_raw": 44.812,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -1.784
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.549,
+        "weight": 0.2,
+        "adj_final": 46.79,
+        "zscore_adj_final": 0.2223
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 45.575,
+        "adj_final": 45.383,
+        "games_count": 44,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.2099
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 249.0,
+        "min_allowed_total": 596.64,
+        "games_count": 3,
+        "PIR_allowed_per_game": 83.0,
+        "PIR_allowed_per_100min": 41.734
+      },
+      "sos": {
+        "SOS_raw": 40.075,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -6.521
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.255,
+        "weight": 0.2,
+        "adj_final": 46.931,
+        "zscore_adj_final": 0.3879
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.261,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0955
+      }
+    },
+    "VIR": {
+      "raw": {
+        "PIR_allowed_total": 287.0,
+        "min_allowed_total": 596.64,
+        "games_count": 3,
+        "PIR_allowed_per_game": 95.667,
+        "PIR_allowed_per_100min": 48.103
+      },
+      "sos": {
+        "SOS_raw": 49.406,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 2.81
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 45.293,
+        "weight": 0.2,
+        "adj_final": 46.339,
+        "zscore_adj_final": -0.3072
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.173,
+        "adj_final": 47.023,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.3605
+      }
+    },
+    "BAS": {
+      "raw": {
+        "PIR_allowed_total": 350.0,
+        "min_allowed_total": 600.0,
+        "games_count": 3,
+        "PIR_allowed_per_game": 116.667,
+        "PIR_allowed_per_100min": 58.333
+      },
+      "sos": {
+        "SOS_raw": 52.784,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 6.188
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 52.145,
+        "weight": 0.2,
+        "adj_final": 47.709,
+        "zscore_adj_final": 1.3014
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 47.553,
+        "adj_final": 47.555,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.5455
+      }
+    },
+    "MUN": {
+      "raw": {
+        "PIR_allowed_total": 312.0,
+        "min_allowed_total": 600.02,
+        "games_count": 3,
+        "PIR_allowed_per_game": 104.0,
+        "PIR_allowed_per_100min": 51.998
+      },
+      "sos": {
+        "SOS_raw": 50.927,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 4.331
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.667,
+        "weight": 0.2,
+        "adj_final": 46.814,
+        "zscore_adj_final": 0.2505
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 48.62,
+        "adj_final": 48.508,
+        "games_count": 74,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.877
+      }
+    },
+    "ULK": {
+      "raw": {
+        "PIR_allowed_total": 186.0,
+        "min_allowed_total": 591.99,
+        "games_count": 3,
+        "PIR_allowed_per_game": 62.0,
+        "PIR_allowed_per_100min": 31.419
+      },
+      "sos": {
+        "SOS_raw": 43.39,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -3.205
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 34.624,
+        "weight": 0.2,
+        "adj_final": 44.205,
+        "zscore_adj_final": -2.8129
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2463
+      }
+    },
+    "BES": {
+      "raw": {
+        "PIR_allowed_total": 309.0,
+        "min_allowed_total": 594.75,
+        "games_count": 3,
+        "PIR_allowed_per_game": 103.0,
+        "PIR_allowed_per_100min": 51.955
+      },
+      "sos": {
+        "SOS_raw": 48.515,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 1.919
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 50.036,
+        "weight": 0.2,
+        "adj_final": 47.288,
+        "zscore_adj_final": 0.8071
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false
+    },
+    "MIL": {
+      "raw": {
+        "PIR_allowed_total": 309.0,
+        "min_allowed_total": 593.16,
+        "games_count": 3,
+        "PIR_allowed_per_game": 103.0,
+        "PIR_allowed_per_100min": 52.094
+      },
+      "sos": {
+        "SOS_raw": 48.394,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": 1.798
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 50.296,
+        "weight": 0.2,
+        "adj_final": 47.34,
+        "zscore_adj_final": 0.8681
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.288,
+        "adj_final": 46.371,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.1337
+      }
+    },
+    "ZAL": {
+      "raw": {
+        "PIR_allowed_total": 267.0,
+        "min_allowed_total": 580.78,
+        "games_count": 3,
+        "PIR_allowed_per_game": 89.0,
+        "PIR_allowed_per_100min": 45.973
+      },
+      "sos": {
+        "SOS_raw": 45.122,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -1.473
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.446,
+        "weight": 0.2,
+        "adj_final": 46.77,
+        "zscore_adj_final": 0.1988
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 43.437,
+        "adj_final": 43.472,
+        "games_count": 76,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.8745
+      }
+    },
+    "BAR": {
+      "raw": {
+        "PIR_allowed_total": 274.0,
+        "min_allowed_total": 595.05,
+        "games_count": 3,
+        "PIR_allowed_per_game": 91.333,
+        "PIR_allowed_per_100min": 46.047
+      },
+      "sos": {
+        "SOS_raw": 44.492,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -2.104
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 48.151,
+        "weight": 0.2,
+        "adj_final": 46.911,
+        "zscore_adj_final": 0.3644
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 44.49,
+        "adj_final": 44.309,
+        "games_count": 78,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -0.5834
+      }
+    },
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 282.0,
+        "min_allowed_total": 599.98,
+        "games_count": 3,
+        "PIR_allowed_per_game": 94.0,
+        "PIR_allowed_per_100min": 47.002
+      },
+      "sos": {
+        "SOS_raw": 44.548,
+        "league_mean_OS": 46.596,
+        "SOS_adjustment": -2.048
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 49.05,
+        "weight": 0.2,
+        "adj_final": 47.09,
+        "zscore_adj_final": 0.5746
+      },
+      "sample": {
+        "games_count": 3,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6418
+      }
+    }
+  }
+}

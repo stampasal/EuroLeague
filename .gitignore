@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === OS ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === Project-specific ===
+
+# Data (μεγάλα αρχεία)
+data/raw/fantasy_data.json
+data/raw/.cache/
+data/models/*.pkl
+
+# Logs
+logs/
+
+# Output (παράγεται)
+output/reports/predictions_log/
+
+# Backups (δικά μου, δεν ανεβαίνουν)
+backups/
+
+# Cache
+.cache/
+
+# Temp
+*.bak
+*.tmp
+_test_*.py
+_scan_*.py
+_write_*.py
