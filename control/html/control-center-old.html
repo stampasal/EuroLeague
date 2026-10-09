@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="el" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EuroLeague Control Center</title>
+<style>
+  :root {
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --border: #e1e5eb;
+    --text: #1a1a2e;
+    --text-muted: #6b7280;
+    --primary: #ff6a1a;
+    --primary-hover: #e85e10;
+    --success: #22c55e;
+    --error: #ef4444;
+    --warn: #f59e0b;
+    --log-bg: #0f1419;
+    --log-text: #d1d5db;
+  }
+  [data-theme="dark"] {
+    --bg: #0f1419;
+    --card: #1a1f2e;
+    --border: #2a3142;
+    --text: #e5e7eb;
+    --text-muted: #9ca3af;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+    background: var(--card);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  .header h1 {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .btn:hover { border-color: var(--primary); }
+  .btn-primary {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+  }
+  .btn-primary:hover { background: var(--primary-hover); }
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .btn-secondary {
+    background: rgba(127,127,127,0.15);
+  }
+  .btn-sm { padding: 4px 10px; font-size: 0.8em; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    gap: 20px;
+    align-items: start;
+  }
+  @media (max-width: 1100px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  /* ---- Scripts panel ---- */
+  .category {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 1.05em;
+  }
+
+  .category-header .cat-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .script-row {
+    display: grid;
+    grid-template-columns: 24px 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .script-row:hover {
+    border-color: var(--primary);
+    background: rgba(255,106,26,0.05);
+  }
+  .script-row.checked {
+    border-color: var(--primary);
+    background: rgba(255,106,26,0.1);
+  }
+
+  .script-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--primary);
+  }
+
+  .script-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .script-label {
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+  .script-desc {
+    font-size: 0.78em;
+    color: var(--text-muted);
+  }
+
+  .script-time {
+    font-size: 0.75em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: rgba(127,127,127,0.15);
+    color: var(--text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* ---- Workflow buttons ---- */
+  .workflow-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 12px 16px;
+    text-align: left;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #ff6a1a 0%, #ff8c3c 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .workflow-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255,106,26,0.4);
+  }
+  .workflow-btn .wf-label {
+    font-weight: 700;
+    font-size: 0.95em;
+  }
+  .workflow-btn .wf-desc {
+    font-size: 0.78em;
+    opacity: 0.9;
+    margin-top: 2px;
+  }
+
+  /* ---- Log panel ---- */
+  .log-panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+  }
+
+  .log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 700;
+  }
+
+  .log-status {
+    font-size: 0.8em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: rgba(127,127,127,0.15);
+    font-weight: 600;
+  }
+  .log-status.running { background: rgba(80,160,255,0.2); color: #50a0ff; }
+  .log-status.done { background: rgba(34,197,94,0.2); color: var(--success); }
+  .log-status.error { background: rgba(239,68,68,0.2); color: var(--error); }
+
+  .log-progress {
+    height: 4px;
+    background: rgba(127,127,127,0.15);
+    overflow: hidden;
+  }
+  .log-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6a1a, #ff8c3c);
+    transition: width 0.3s;
+    width: 0%;
+  }
+
+  .log-output {
+    background: var(--log-bg);
+    color: var(--log-text);
+    padding: 16px;
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 600px;
+    overflow-y: auto;
+    min-height: 200px;
+  }
+
+  .log-output .line-warn { color: var(--warn); }
+  .log-output .line-error { color: var(--error); }
+
+  .log-actions {
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ---- Selection summary ---- */
+  .selection-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 16px;
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+  }
+  .selection-bar .count {
+    font-weight: 700;
+    color: var(--primary);
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>🎛️ EuroLeague Control Center</h1>
+    <div class="header-actions">
+      <button class="btn" id="btnTheme">🌙 Theme</button>
+      <button class="btn" onclick="location.href='/'">🏀 Site</button>
+    </div>
+  </div>
+
+  <div class="selection-bar">
+    <span>Επιλεγμένα: <span class="count" id="selCount">0</span></span>
+    <button class="btn btn-sm" id="btnSelectAll">Select All</button>
+    <button class="btn btn-sm" id="btnDeselectAll">Deselect All</button>
+    <button class="btn btn-primary" id="btnRunSelected" style="margin-left:auto;">
+      ▶ Run Selected
+    </button>
+  </div>
+
+  <div class="layout">
+
+    <!-- Αριστερά: Scripts + Workflows -->
+    <div>
+      <div class="category">
+        <div class="category-header">
+          <span class="cat-label">⚡ Workflows</span>
+        </div>
+        <div id="workflows"></div>
+      </div>
+
+      <div id="categories"></div>
+    </div>
+
+    <!-- Δεξιά: Log -->
+    <div class="log-panel">
+      <div class="log-header">
+        <span>📋 Output</span>
+        <span class="log-status" id="logStatus">idle</span>
+      </div>
+      <div class="log-progress">
+        <div class="log-progress-fill" id="logProgress"></div>
+      </div>
+      <div class="log-output" id="logOutput">Έτοιμο. Διάλεξε scripts ή workflow και πάτα Run.</div>
+      <div class="log-actions">
+        <button class="btn btn-sm" id="btnClearLog">Clear</button>
+        <button class="btn btn-sm" id="btnScrollBottom">Scroll Bottom</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+const state = {
+  scripts: [],
+  workflows: [],
+  selected: new Set(),
+  activeRunId: null,
+  pollTimer: null,
+};
+
+const CATEGORY_ICONS = {
+  FETCH: "📥",
+  TRAIN: "🧠",
+  CONVERT: "🔄",
+  VALIDATE: "✅",
+};
+
+const CATEGORY_LABELS = {
+  FETCH: "Fetch Data",
+  TRAIN: "Train Model",
+  CONVERT: "Convert to JS",
+  VALIDATE: "Validation",
+};
+
+// ============================================================
+// THEME
+// ============================================================
+function initTheme(){
+  const saved = localStorage.getItem("cc_theme") || "light";
+  document.documentElement.dataset.theme = saved;
+  const btn = document.getElementById("btnTheme");
+  btn.textContent = saved === "dark" ? "☀️ Theme" : "🌙 Theme";
+  btn.addEventListener("click", () => {
+    const cur = document.documentElement.dataset.theme;
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem("cc_theme", next);
+    btn.textContent = next === "dark" ? "☀️ Theme" : "🌙 Theme";
+  });
+}
+
+// ============================================================
+// LOAD SCRIPTS
+// ============================================================
+async function loadScripts(){
+  try {
+    const r = await fetch("/api/scripts");
+    const data = await r.json();
+    if(!data.ok) throw new Error(data.error || "Failed");
+    state.scripts = data.scripts;
+    state.workflows = data.workflows;
+    renderWorkflows();
+    renderCategories();
+    updateSelectionCount();
+  } catch(err){
+    document.getElementById("logOutput").textContent = "Σφάλμα φόρτωσης: " + err.message;
+  }
+}
+
+// ============================================================
+// RENDER WORKFLOWS
+// ============================================================
+function renderWorkflows(){
+  const el = document.getElementById("workflows");
+  el.innerHTML = state.workflows.map(w => `
+    <button class="workflow-btn" data-wf="${w.id}">
+      <span class="wf-label">${w.label}</span>
+      <span class="wf-desc">${w.desc} · ${w.time}</span>
+    </button>
+  `).join("");
+
+  el.querySelectorAll(".workflow-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const wfId = btn.dataset.wf;
+      if(confirm(`Να τρέξω το workflow "${wfId}"?`)){
+        runWorkflow(wfId);
+      }
+    });
+  });
+}
+
+// ============================================================
+// RENDER CATEGORIES
+// ============================================================
+function renderCategories(){
+  const container = document.getElementById("categories");
+  const byCat = {};
+  state.scripts.forEach(s => {
+    if(!byCat[s.category]) byCat[s.category] = [];
+    byCat[s.category].push(s);
+  });
+
+  const catOrder = ["FETCH", "TRAIN", "CONVERT", "VALIDATE"];
+  container.innerHTML = catOrder.map(cat => {
+    const scripts = byCat[cat] || [];
+    if(!scripts.length) return "";
+    const icon = CATEGORY_ICONS[cat] || "📄";
+    const label = CATEGORY_LABELS[cat] || cat;
+
+    const rows = scripts.map(s => `
+      <div class="script-row" data-id="${s.id}">
+        <input type="checkbox" data-id="${s.id}">
+        <div class="script-info">
+          <div class="script-label">${s.label}</div>
+          <div class="script-desc">${s.desc}</div>
+        </div>
+        <div class="script-time">${s.time}</div>
+      </div>
+    `).join("");
+
+    return `
+      <div class="category">
+        <div class="category-header">
+          <span class="cat-label">${icon} ${label}</span>
+        </div>
+        ${rows}
+      </div>
+    `;
+  }).join("");
+
+  // Event listeners
+  container.querySelectorAll(".script-row").forEach(row => {
+    const id = row.dataset.id;
+    const cb = row.querySelector("input[type=checkbox]");
+
+    row.addEventListener("click", e => {
+      if(e.target.tagName === "INPUT") return;   // το checkbox έχει δικό του handler
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event("change"));
+    });
+
+    cb.addEventListener("change", () => {
+      if(cb.checked){
+        state.selected.add(id);
+        row.classList.add("checked");
+      } else {
+        state.selected.delete(id);
+        row.classList.remove("checked");
+      }
+      updateSelectionCount();
+    });
+  });
+}
+
+function updateSelectionCount(){
+  document.getElementById("selCount").textContent = state.selected.size;
+}
+
+// ============================================================
+// SELECT ALL / DESELECT
+// ============================================================
+document.getElementById("btnSelectAll").addEventListener("click", () => {
+  state.scripts.forEach(s => state.selected.add(s.id));
+  document.querySelectorAll(".script-row").forEach(row => {
+    row.classList.add("checked");
+    const cb = row.querySelector("input[type=checkbox]");
+    if(cb) cb.checked = true;
+  });
+  updateSelectionCount();
+});
+
+document.getElementById("btnDeselectAll").addEventListener("click", () => {
+  state.selected.clear();
+  document.querySelectorAll(".script-row").forEach(row => {
+    row.classList.remove("checked");
+    const cb = row.querySelector("input[type=checkbox]");
+    if(cb) cb.checked = false;
+  });
+  updateSelectionCount();
+});
+
+// ============================================================
+// RUN SELECTED
+// ============================================================
+document.getElementById("btnRunSelected").addEventListener("click", () => {
+  if(state.selected.size === 0){
+    alert("Δεν έχεις επιλέξει scripts.");
+    return;
+  }
+  const ids = Array.from(state.selected);
+  if(!confirm(`Να τρέξω ${ids.length} scripts?`)) return;
+  runScripts(ids);
+});
+
+// ============================================================
+// RUN WORKFLOW
+// ============================================================
+async function runWorkflow(wfId){
+  clearLog();
+  setStatus("running", "starting...");
+  try {
+    const r = await fetch("/api/run", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ workflow: wfId }),
+    });
+    const data = await r.json();
+    if(!data.ok) throw new Error(data.error);
+    state.activeRunId = data.run_id;
+    startPolling();
+  } catch(err){
+    setStatus("error", err.message);
+    appendLog(`[ERROR] ${err.message}`);
+  }
+}
+
+// ============================================================
+// RUN SCRIPTS
+// ============================================================
+async function runScripts(ids){
+  clearLog();
+  setStatus("running", "starting...");
+  try {
+    const r = await fetch("/api/run", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ scripts: ids }),
+    });
+    const data = await r.json();
+    if(!data.ok) throw new Error(data.error);
+    state.activeRunId = data.run_id;
+    startPolling();
+  } catch(err){
+    setStatus("error", err.message);
+    appendLog(`[ERROR] ${err.message}`);
+  }
+}
+
+// ============================================================
+// POLLING
+// ============================================================
+function startPolling(){
+  if(state.pollTimer) clearInterval(state.pollTimer);
+  state.pollTimer = setInterval(poll, 1000);
+  poll();
+}
+
+async function poll(){
+  if(!state.activeRunId) return;
+  try {
+    const r = await fetch("/api/run-status/" + state.activeRunId);
+    const data = await r.json();
+    if(!data.ok) return;
+
+    // Status
+    setStatus(data.status, data.current_script || "");
+
+    // Progress
+    if(data.total > 0){
+      const pct = Math.round(((data.current_index) / data.total) * 100);
+      document.getElementById("logProgress").style.width = pct + "%";
+    }
+
+    // Output
+    renderOutput(data.output || []);
+
+    // Stop polling
+    if(data.status === "done" || data.status === "error"){
+      clearInterval(state.pollTimer);
+      state.pollTimer = null;
+      document.getElementById("logProgress").style.width = "100%";
+    }
+  } catch(err){
+    console.error("poll error:", err);
+  }
+}
+
+function renderOutput(lines){
+  const el = document.getElementById("logOutput");
+  el.innerHTML = lines.map(line => {
+    let cls = "";
+    if(line.startsWith("[ERROR]") || line.includes("Traceback")) cls = "line-error";
+    else if(line.startsWith("[WARN]")) cls = "line-warn";
+    return `<span class="${cls}">${escapeHtml(line)}</span>`;
+  }).join("\n");
+  // Auto-scroll
+  el.scrollTop = el.scrollHeight;
+}
+
+function appendLog(text){
+  const el = document.getElementById("logOutput");
+  el.textContent += "\n" + text;
+  el.scrollTop = el.scrollHeight;
+}
+
+function clearLog(){
+  document.getElementById("logOutput").textContent = "";
+  document.getElementById("logProgress").style.width = "0%";
+}
+
+function setStatus(status, info){
+  const el = document.getElementById("logStatus");
+  el.className = "log-status " + status;
+  if(status === "running"){
+    el.innerHTML = `<span class="spinner"></span> ${info || "running"}`;
+  } else if(status === "done"){
+    el.textContent = "done ✓";
+  } else if(status === "error"){
+    el.textContent = "error ✗";
+  } else {
+    el.textContent = "idle";
+  }
+}
+
+function escapeHtml(s){
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+// ============================================================
+// LOG BUTTONS
+// ============================================================
+document.getElementById("btnClearLog").addEventListener("click", clearLog);
+document.getElementById("btnScrollBottom").addEventListener("click", () => {
+  const el = document.getElementById("logOutput");
+  el.scrollTop = el.scrollHeight;
+});
+
+// ============================================================
+// INIT
+// ============================================================
+initTheme();
+loadScripts();
+</script>
+
+</body>
+</html>

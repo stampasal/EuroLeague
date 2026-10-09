@@ -46,11 +46,11 @@ from euroleague_api.game_stats import GameStats
 # 2. ΡΥΘΜΙΣΕΙΣ
 # ============================================================
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-_ROOT_DIR   = os.path.dirname(_SCRIPT_DIR)
+_ROOT_DIR   = os.path.dirname(os.path.dirname(_SCRIPT_DIR))  # 2 levels up
 
-DATA_JS_PATH = os.path.join(_ROOT_DIR, "js", "config", "data.js")
+DATA_JS_PATH = os.path.join(_ROOT_DIR, "app", "js", "config", "data.js")
 BACKUP_DIR   = os.path.join(_ROOT_DIR, "backups")
-HTML_PATH    = os.path.join(_ROOT_DIR, "EuroLeague.html")
+HTML_PATH    = os.path.join(_ROOT_DIR, "app", "html", "EuroLeague.html")
 SEASON       = 2026
 COMPETITION  = "E"
 FORCE_UPDATE = True   # True = αντικαθιστά ΟΛΑ τα σκορ με αυτά του API
@@ -197,7 +197,7 @@ def write_boxscores_js(boxscores):
     if not boxscores:
         return False
 
-    BOX_JS_PATH = os.path.join(_ROOT_DIR, "js", "data", "game-boxscores.js")
+    BOX_JS_PATH = os.path.join(_ROOT_DIR, "app", "js", "data", "game-boxscores.js")
 
     # Backup
     if os.path.exists(BOX_JS_PATH):
@@ -941,7 +941,7 @@ def write_team_advanced_js(team_stats):
     if not team_stats:
         return False
 
-    ADVANCED_JS_PATH = os.path.join(_ROOT_DIR, "js", "data", "team-advanced.js")
+    ADVANCED_JS_PATH = os.path.join(_ROOT_DIR, "app", "js", "data", "team-advanced.js")
 
     # ---- Backup ----
     if os.path.exists(ADVANCED_JS_PATH):

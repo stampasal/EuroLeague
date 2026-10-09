@@ -6,11 +6,41 @@ let scrollSpyScheduled = false;
 let liveIntervalId = null;
 
 // ---- GR TIME (UTC/CET + 1h → Ελλάδα) ----
-function toGRTime(utcStr){
-  if(!utcStr) return "—";
-  const [hh, mm] = utcStr.split(":").map(Number);
-  const grHour = (hh + 1) % 24;
+// ---- GR TIME (UTC + offset Ελλάδας με DST) ----
+// Το data.js [3] = LOCAL, [4] = GMT/UTC
+// Δέχεται "HH:MM" (GMT) + "YYYY-MM-DD" (date για DST)
+function toGRTime(gmtStr, dateStr){
+  if(!gmtStr) return "—";
+  const [hh, mm] = gmtStr.split(":").map(Number);
+  const offset = grOffsetHours(dateStr);
+  const grHour = (hh + offset + 24) % 24;
   return String(grHour).padStart(2, "0") + ":" + String(mm).padStart(2, "0");
+}
+
+// Επιστρέφει 2 (χειμώνας) ή 3 (καλοκαίρι) — Ελληνική DST
+function grOffsetHours(dateStr){
+  if(!dateStr) return 2; // default χειμώνας
+  const d = new Date(dateStr + "T12:00:00Z");
+  const year = d.getUTCFullYear();
+
+  // Τελευταία Κυριακή Μαρτίου (03:00 UTC = DST start)
+  const dstStart = lastSundayOfMonth(year, 2); // 2 = March
+  // Τελευταία Κυριακή Οκτωβρίου (04:00 UTC = DST end)
+  const dstEnd = lastSundayOfMonth(year, 9);   // 9 = October
+
+  if (d >= dstStart && d < dstEnd) {
+    return 3; // καλοκαίρι
+  }
+  return 2;   // χειμώνας
+}
+
+// Επιστρέφει Date object για την τελευταία Κυριακή του μήνα (μήνας 0-11)
+function lastSundayOfMonth(year, monthIdx){
+  const lastDay = new Date(Date.UTC(year, monthIdx + 1, 0));
+  const day = lastDay.getUTCDay(); // 0=Κυρ, 1=Δευτ, ...
+  const offset = day; // Πόσες μέρες πίσω για Κυριακή
+  const sunday = new Date(Date.UTC(year, monthIdx + 1, 0 - offset));
+  return sunday;
 }
 
 // ---- SHORT DATE (2026-09-29 → 29 Sep) ----
@@ -224,8 +254,13 @@ function renderGames(){
   let lastRound = null;
   let h2hStats = { t1Name: null, t2Name: null, t1Wins: 0, t2Wins: 0, games: 0 };
 
+  games.sort((a, b) => {
+    if (a[0] !== b[0]) return a[0] - b[0];
+    if (a[2] !== b[2]) return a[2].localeCompare(b[2]);
+    return a[4].localeCompare(b[4]);
+  });
   games.forEach((g, idx) => {
-    const [round, day, date, utc, local, home, away, hs, aw] = g;
+    const [round, day, date, local, utc, home, away, hs, aw] = g;
 
     const homeMatch1 = matchTeam(home, t1);
     const awayMatch1 = matchTeam(away, t1);
@@ -269,7 +304,7 @@ function renderGames(){
     const awayClass = awayWin ? "winner-away" : "";
     const disabled = CONFIG.scoreInputEnabled ? "" : "readonly";
 
-    const grTime  = toGRTime(utc);
+    const grTime  = toGRTime(utc, date);
     const liveHTML = liveBadgeHTML(date, utc);
 
     html += `<tr data-idx="${idx}" class="${homeClass} ${awayClass}">

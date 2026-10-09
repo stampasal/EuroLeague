@@ -3,12 +3,11 @@
 # ------------------------------------------------------------
 # Control Panel server (port 5001).
 #
-# Δεν σερβίρει το app — μόνο το control panel + script runner.
-#
 # Endpoints:
 #   GET  /                     → control/html/control-center.html
 #   GET  /<path>               → static files (control/html/)
 #   GET  /api/scripts          → λίστα scripts + workflows
+#   GET  /api/status           → last_run timestamps (auto-hints)
 #   POST /api/run              → ξεκίνα script/workflow
 #   GET  /api/run-status/<id>  → status + output
 #
@@ -17,6 +16,7 @@
 
 from __future__ import annotations
 
+import json
 import os
 import subprocess
 import sys
@@ -199,7 +199,6 @@ SCRIPTS = [
      "time": "~5δ"},
 ]
 
-
 WORKFLOWS = [
     {"id": "update_all",
      "label": "Update ALL",
@@ -215,7 +214,7 @@ WORKFLOWS = [
          "convert_predictions",
          "convert_gamelogs",
          "convert_stats",
-         "convert_trend_confidence",
+         "compute_trend_confidence",
          "convert_coaches",
          "fetch_injuries",
          "apply_injuries",
@@ -233,7 +232,7 @@ WORKFLOWS = [
          "convert_predictions",
          "convert_gamelogs",
          "convert_stats",
-         "convert_trend_confidence",
+         "compute_trend_confidence",
          "convert_coaches",
          "fetch_injuries",
          "apply_injuries",
@@ -247,7 +246,7 @@ WORKFLOWS = [
          "convert_predictions",
          "convert_gamelogs",
          "convert_stats",
-         "convert_trend_confidence",
+         "compute_trend_confidence",
          "convert_coaches",
          "fetch_injuries",
          "apply_injuries",
@@ -262,6 +261,16 @@ WORKFLOWS = [
          "apply_injuries",
      ],
      "time": "~10δ"},
+
+    {"id": "validate",
+     "label": "Validate System",
+     "desc": "Έλεγχος αν όλα δουλεύουν σωστά (~30 δευτ.)",
+     "steps": [
+         "validate_all",
+         "validate_optimizer",
+         "validate_sanity",
+     ],
+     "time": "~30δ"},
 ]
 
 
@@ -288,6 +297,32 @@ RUNS_LOCK = threading.Lock()
 
 
 # ============================================================
+# LAST RUNS PERSISTENCE (auto-hints)
+# ============================================================
+
+LAST_RUNS_FILE = ROOT / "output" / ".last_runs.json"
+
+
+def _load_last_runs() -> dict:
+    if not LAST_RUNS_FILE.exists():
+        return {}
+    try:
+        with open(LAST_RUNS_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_last_runs(data: dict) -> None:
+    LAST_RUNS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(LAST_RUNS_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+LAST_RUNS: dict = _load_last_runs()
+
+
+# ============================================================
 # SERVE
 # ============================================================
 
@@ -305,93 +340,22 @@ def serve_static(filename: str):
 # API
 # ============================================================
 
-def _run_scripts_worker(run_id: str, script_ids: list[str]):
-    with RUNS_LOCK:
-        run = RUNS.get(run_id)
-        if not run:
-            return
-        run.status = "running"
-        run.started_at = time.time()
-
-    script_lookup = {s["id"]: s for s in SCRIPTS}
-
-    env = os.environ.copy()
-    env["PYTHONIOENCODING"] = "utf-8"
-    env["PYTHONUTF8"] = "1"
-
-    try:
-        for idx, sid in enumerate(script_ids):
-            script = script_lookup.get(sid)
-            if not script:
-                with RUNS_LOCK:
-                    run.output.append(f"[ERROR] Unknown script: {sid}")
-                continue
-
-            with RUNS_LOCK:
-                run.current_script = script["label"]
-                run.current_index = idx
-                run.output.append("")
-                run.output.append("=" * 60)
-                run.output.append(f"[{idx+1}/{len(script_ids)}] {script['label']}")
-                run.output.append(f"  File: {script['file']}")
-                run.output.append(f"  Desc: {script['desc']}")
-                run.output.append("=" * 60)
-
-            script_path = (ROOT / script["file"]).resolve()
-
-            if not script_path.exists():
-                with RUNS_LOCK:
-                    run.output.append(f"[ERROR] File not found: {script_path}")
-                continue
-
-            try:
-                proc = subprocess.Popen(
-                    [sys.executable, str(script_path)],
-                    cwd=str(ROOT),
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.STDOUT,
-                    text=True,
-                    encoding="utf-8",
-                    errors="replace",
-                    bufsize=1,
-                    env=env,
-                )
-
-                for line in proc.stdout:
-                    with RUNS_LOCK:
-                        run.output.append(line.rstrip("\n"))
-                    if len(run.output) > 5000:
-                        with RUNS_LOCK:
-                            run.output = run.output[-3000:]
-
-                proc.wait()
-
-                with RUNS_LOCK:
-                    run.output.append(f"--- exit code: {proc.returncode} ---")
-
-                if proc.returncode != 0:
-                    with RUNS_LOCK:
-                        run.output.append(f"[WARN] Το script επέστρεψε {proc.returncode}")
-
-            except Exception as e:
-                with RUNS_LOCK:
-                    run.output.append(f"[ERROR] {e}")
-
-        with RUNS_LOCK:
-            run.status = "done"
-            run.finished_at = time.time()
-            run.current_script = None
-
-    except Exception as e:
-        with RUNS_LOCK:
-            run.status = "error"
-            run.error = str(e)
-            run.finished_at = time.time()
-
-
 @app.route("/api/scripts", methods=["GET"])
 def api_scripts():
     return jsonify({"ok": True, "scripts": SCRIPTS, "workflows": WORKFLOWS})
+
+
+@app.route("/api/status", methods=["GET"])
+def api_status():
+    """Επιστρέφει last_run timestamps για auto-hints."""
+    result = {}
+    for wf in WORKFLOWS:
+        wf_key = "workflow_" + "_".join(wf["steps"][:3])
+        if wf_key in LAST_RUNS:
+            result[wf["id"]] = LAST_RUNS[wf_key]
+        elif all(step in LAST_RUNS for step in wf["steps"]):
+            result[wf["id"]] = min(LAST_RUNS[step] for step in wf["steps"])
+    return jsonify({"ok": True, "last_runs": result, "raw": LAST_RUNS})
 
 
 @app.route("/api/run", methods=["POST", "OPTIONS"])
@@ -446,6 +410,103 @@ def api_run_status(run_id: str):
             "output": run.output[-200:],
             "error": run.error,
         })
+
+
+# ============================================================
+# WORKER
+# ============================================================
+
+def _run_scripts_worker(run_id: str, script_ids: list[str]):
+    with RUNS_LOCK:
+        run = RUNS.get(run_id)
+        if not run:
+            return
+        run.status = "running"
+        run.started_at = time.time()
+
+    script_lookup = {s["id"]: s for s in SCRIPTS}
+
+    env = os.environ.copy()
+    env["PYTHONIOENCODING"] = "utf-8"
+    env["PYTHONUTF8"] = "1"
+
+    try:
+        for idx, sid in enumerate(script_ids):
+            script = script_lookup.get(sid)
+            if not script:
+                with RUNS_LOCK:
+                    run.output.append(f"[ERROR] Unknown script: {sid}")
+                continue
+
+            with RUNS_LOCK:
+                run.current_script = script["label"]
+                run.current_index = idx + 1
+                run.output.append("")
+                run.output.append("=" * 60)
+                run.output.append(f"[{idx+1}/{len(script_ids)}] {script['label']}")
+                run.output.append(f"  File: {script['file']}")
+                run.output.append(f"  Desc: {script['desc']}")
+                run.output.append("=" * 60)
+
+            script_path = (ROOT / script["file"]).resolve()
+
+            if not script_path.exists():
+                with RUNS_LOCK:
+                    run.output.append(f"[ERROR] File not found: {script_path}")
+                continue
+
+            try:
+                proc = subprocess.Popen(
+                    [sys.executable, str(script_path)],
+                    cwd=str(ROOT),
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    encoding="utf-8",
+                    errors="replace",
+                    bufsize=1,
+                    env=env,
+                )
+
+                for line in proc.stdout:
+                    with RUNS_LOCK:
+                        run.output.append(line.rstrip("\n"))
+                    if len(run.output) > 5000:
+                        with RUNS_LOCK:
+                            run.output = run.output[-3000:]
+
+                proc.wait()
+
+                with RUNS_LOCK:
+                    run.output.append(f"--- exit code: {proc.returncode} ---")
+                    LAST_RUNS[sid] = time.time() * 1000
+                    _save_last_runs(LAST_RUNS)
+
+                if proc.returncode != 0:
+                    with RUNS_LOCK:
+                        run.output.append(f"[WARN] Το script επέστρεψε {proc.returncode}")
+
+            except Exception as e:
+                with RUNS_LOCK:
+                    run.output.append(f"[ERROR] {e}")
+
+        with RUNS_LOCK:
+            run.status = "done"
+            run.finished_at = time.time()
+            run.current_script = None
+            run.current_index = run.total
+
+            # Save workflow-level hint
+            if script_ids:
+                key = script_ids[0] if len(script_ids) == 1 else "workflow_" + "_".join(script_ids[:3])
+                LAST_RUNS[key] = time.time() * 1000
+                _save_last_runs(LAST_RUNS)
+
+    except Exception as e:
+        with RUNS_LOCK:
+            run.status = "error"
+            run.error = str(e)
+            run.finished_at = time.time()
 
 
 # ============================================================

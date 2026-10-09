@@ -1,34 +1,34 @@
 {
-  "scraped_at": "2026-10-08T20:58:03.157220+00:00",
+  "scraped_at": "2026-10-09T15:53:48.721971+00:00",
   "source_url": "https://basketnews.com/leagues/25-euroleague/injured.html",
-  "total": 113,
+  "total": 103,
   "by_team": {
     "ULK": 8,
     "MIL": 5,
     "BES": 2,
     "RED": 11,
     "DUB": 7,
-    "MUN": 5,
+    "MUN": 2,
     "BAR": 5,
     "IST": 3,
-    "HTA": 11,
+    "HTA": 10,
     "BAS": 3,
     "ASV": 4,
-    "TEL": 5,
+    "TEL": 4,
     "OLY": 8,
-    "PAN": 7,
+    "PAN": 5,
     "PRS": 5,
     "PAR": 6,
     "MAD": 6,
-    "PAM": 6,
-    "VIR": 3,
+    "PAM": 4,
+    "VIR": 2,
     "ZAL": 3
   },
   "by_status": {
-    "out": 71,
-    "uncertain": 17,
+    "out": 45,
+    "uncertain": 44,
     "game_time": 4,
-    "ready": 17,
+    "ready": 6,
     "expected": 4
   },
   "players": [
@@ -368,9 +368,9 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Dzanan Musa",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 2-4",
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
       "comment": "Knee injury"
     },
     {
@@ -379,10 +379,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Klemen Prepelic",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Undisclosed"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 1-4 (undisclosed)"
     },
     {
       "team": "DUB",
@@ -398,46 +398,13 @@
     {
       "team": "MUN",
       "team_raw": "FC Bayern Munich",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "MarJon Beauchamp",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Expected to play after recovering from illness"
-    },
-    {
-      "team": "MUN",
-      "team_raw": "FC Bayern Munich",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Oscar da Silva",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "DNP in Round 3. Played in the domestic league (10.04)"
-    },
-    {
-      "team": "MUN",
-      "team_raw": "FC Bayern Munich",
       "position": "C",
       "position_raw": "C",
       "player_name": "Kilian Fischer",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 2-3 (coach's decision)"
-    },
-    {
-      "team": "MUN",
-      "team_raw": "FC Bayern Munich",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Niels Giffey",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Included in 12-man roster in Round 3. Played in the domestic league (10.04)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "MUN",
@@ -445,10 +412,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Miles Norris",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Expected to play after a dental surgery"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (dental surgery)"
     },
     {
       "team": "BAR",
@@ -511,10 +478,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Onuralp Bitim",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 1-3 (coach's decision). Suffered injury in the domestic league (10.04)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "IST",
@@ -522,10 +489,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Shane Larkin",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Played in domestic league (10.04), but will miss Round 4 to continue working on his physical form"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 1-4 (fitness)"
     },
     {
       "team": "IST",
@@ -533,10 +500,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Melih Mahmutoglu",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 1-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "HTA",
@@ -577,10 +544,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Amir Coffey",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Practiced with the team and is expected to return after DNPs in Rounds 1-3 (undisclosed injury)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (undisclosed injury)"
     },
     {
       "team": "HTA",
@@ -599,10 +566,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Tomer Ginat",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 1-3 (knee injury)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (knee injury)"
     },
     {
       "team": "HTA",
@@ -636,17 +603,6 @@
       "status_raw": "Out",
       "round": "Indefinitely",
       "comment": "Not included in official Euroleague roster"
-    },
-    {
-      "team": "HTA",
-      "team_raw": "Hapoel IBI Tel Aviv",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Jacob Toppin",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Practiced with the team and is expected to return after DNPs in Rounds 2-3 (undisclosed injury)"
     },
     {
       "team": "HTA",
@@ -742,10 +698,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "John Dibartolomeo",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 2-3 (personal reasons)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (coach's decision)"
     },
     {
       "team": "TEL",
@@ -753,10 +709,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Amit Ebo",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Included in 12-man roster in Round 3. DNP in Rounds 1-2 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (coach's decision)"
     },
     {
       "team": "TEL",
@@ -775,21 +731,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Gur Lavi",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 1-3 (undisclosed injury)"
-    },
-    {
-      "team": "TEL",
-      "team_raw": "Maccabi Rapyd Tel Aviv",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Daniel Theis",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Completed two full training sessions but still feeling discomfort in his ankle"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 1-4 (undisclosed injury)"
     },
     {
       "team": "OLY",
@@ -882,24 +827,13 @@
     {
       "team": "PAN",
       "team_raw": "Panathinaikos AKTOR Athens",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Moustapha Fall",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Practiced with the team, should be fit for Round 4 after DNPs in Round 1-3 (hamstring injury)"
-    },
-    {
-      "team": "PAN",
-      "team_raw": "Panathinaikos AKTOR Athens",
       "position": "F",
       "position_raw": "SF",
       "player_name": "Juan Hernangomez",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Ruled out for Round 4 (discomfort in his groin, muscle spasm)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 2-4 (discomfort in his groin, muscle spasm)"
     },
     {
       "team": "PAN",
@@ -918,21 +852,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Kendrick Nunn",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 2-4",
-      "comment": "Medial right meniscus tear"
-    },
-    {
-      "team": "PAN",
-      "team_raw": "Panathinaikos AKTOR Athens",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Nikos Rogkavopoulos",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Practiced with the team, should be fit for Round 4 after a DNP in Round 3"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (medial right meniscus tear)"
     },
     {
       "team": "PAN",
@@ -940,10 +863,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Kostas Sloukas",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 2-4",
-      "comment": "Rehab after leg injury"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (rehab after leg injury)"
     },
     {
       "team": "PAN",
@@ -951,10 +874,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Iason Varvaritis",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 1-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "PRS",
@@ -1083,10 +1006,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Gabriel Deck",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Left shoulder injury"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (left shoulder injury)"
     },
     {
       "team": "MAD",
@@ -1105,10 +1028,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Sergio Llull",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision). Played in the domestic league (10.04)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "MAD",
@@ -1116,10 +1039,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Gabriele Procida",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "DNP in Round 2-3 (coach's decision). Played in the domestic league (10.04)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 2-4 (coach's decision)"
     },
     {
       "team": "MAD",
@@ -1127,10 +1050,10 @@
       "position": "C",
       "position_raw": "C",
       "player_name": "Olivier Sarr",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision). Played in the domestic league (10.04)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "MAD",
@@ -1138,21 +1061,10 @@
       "position": "G",
       "position_raw": "SG",
       "player_name": "Max Shulga",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision). Played in the domestic league (10.04)"
-    },
-    {
-      "team": "PAM",
-      "team_raw": "Valencia Basket",
-      "position": "G",
-      "position_raw": "PG",
-      "player_name": "Alvaro Cardenas",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 1-4 (coach's decision)"
     },
     {
       "team": "PAM",
@@ -1160,10 +1072,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Mouhamadou Gueye",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "PAM",
@@ -1171,21 +1083,10 @@
       "position": "G",
       "position_raw": "SG",
       "player_name": "Lucas Mari",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
-    },
-    {
-      "team": "PAM",
-      "team_raw": "Valencia Basket",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Dylan Osetkowski",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Not included in team's injury report after a DNP in domestic league on Sunday (illness)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "PAM",
@@ -1193,10 +1094,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Mario Saint-Supery",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Illness"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (illness)"
     },
     {
       "team": "PAM",
@@ -1204,10 +1105,10 @@
       "position": "C",
       "position_raw": "C",
       "player_name": "Yankuba Sima",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "VIR",
@@ -1215,10 +1116,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Matteo Baiocchi",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "VIR",
@@ -1226,21 +1127,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Davide Casarin",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
-    },
-    {
-      "team": "VIR",
-      "team_raw": "Virtus Bologna",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Kevin Kokila",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Not included in the team's injury report after a DNP in Rounds 1-3 (right thigh biceps tear)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "ZAL",
