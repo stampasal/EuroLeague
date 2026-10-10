@@ -58,7 +58,7 @@ function isGameLive(date, utcStr){
   // Θεωρούμε CEST (+02:00) για τη σεζόν (Σεπ-Απρ, εκτός DST χειμώνα)
   // Για απλότητα: -2h offset → UTC timestamp
   try{
-    const start = new Date(`${date}T${utcStr}:00+02:00`).getTime();
+    const start = new Date(`${date}T${utcStr}:00Z`).getTime();
     const end   = start + 2 * 60 * 60 * 1000;
     const now   = Date.now();
     return now >= start && now <= end;
@@ -67,7 +67,7 @@ function isGameLive(date, utcStr){
   }
 }
 
-function liveBadgeHTML(date, utcStr){
+function liveBadgeHTML(date, utcStr, hs, aw){
   if(isGameLive(date, utcStr)){
     return `<span class="live-badge">LIVE</span>`;
   }
@@ -305,7 +305,7 @@ function renderGames(){
     const disabled = CONFIG.scoreInputEnabled ? "" : "readonly";
 
     const grTime  = toGRTime(utc, date);
-    const liveHTML = liveBadgeHTML(date, utc);
+    const liveHTML = liveBadgeHTML(date, utc, hs, aw);
 
     html += `<tr data-idx="${idx}" class="${homeClass} ${awayClass}">
       <td class="num">${round}</td>

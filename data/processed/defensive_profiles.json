@@ -34,7 +34,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.6418
+        "zscore_pooled": -1.6424
       }
     },
     "RED": {
@@ -65,13 +65,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.846,
-        "adj_final": 44.837,
+        "adj_final": 44.836,
         "games_count": 74,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.3998
+        "zscore_pooled": -0.4005
       }
     },
     "BER": {
@@ -108,7 +108,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 2.4848
+        "zscore_pooled": 2.4851
       }
     },
     "MCO": {
@@ -139,13 +139,13 @@
       "historical": true,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.135,
-        "adj_final": 43.782,
+        "adj_final": 43.778,
         "games_count": 84,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7667
+        "zscore_pooled": -0.7685
       }
     },
     "TEL": {
@@ -212,14 +212,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 48.84,
-        "adj_final": 48.602,
-        "games_count": 71,
+        "PIR_allowed_per_100min": 48.879,
+        "adj_final": 48.6,
+        "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.9097
+        "zscore_pooled": 0.9089
       }
     },
     "MIL": {
@@ -256,7 +256,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.1337
+        "zscore_pooled": 0.1335
       }
     },
     "PAM": {
@@ -293,7 +293,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.2099
+        "zscore_pooled": -0.2102
       }
     },
     "BAR": {
@@ -323,14 +323,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 44.49,
-        "adj_final": 44.309,
-        "games_count": 78,
+        "PIR_allowed_per_100min": 44.468,
+        "adj_final": 44.331,
+        "games_count": 79,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.5834
+        "zscore_pooled": -0.5762
       }
     },
     "MUN": {
@@ -367,7 +367,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.877
+        "zscore_pooled": 0.8769
       }
     },
     "OLY": {
@@ -398,13 +398,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 42.347,
-        "adj_final": 42.32,
+        "adj_final": 42.321,
         "games_count": 83,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2752
+        "zscore_pooled": -1.2754
       }
     },
     "PAR": {
@@ -435,13 +435,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 46.379,
-        "adj_final": 46.261,
+        "adj_final": 46.26,
         "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.0955
+        "zscore_pooled": 0.0949
       }
     },
     "BAS": {
@@ -478,7 +478,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.5455
+        "zscore_pooled": 0.5454
       }
     },
     "IST": {
@@ -515,7 +515,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7403
+        "zscore_pooled": -0.7407
       }
     },
     "VIR": {
@@ -552,7 +552,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.3605
+        "zscore_pooled": 0.3603
       }
     },
     "ZAL": {
@@ -589,7 +589,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.8745
+        "zscore_pooled": -0.875
       }
     },
     "ULK": {
@@ -626,7 +626,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2463
+        "zscore_pooled": -1.2469
       }
     },
     "PAN": {
@@ -657,7 +657,7 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 45.159,
-        "adj_final": 44.808,
+        "adj_final": 44.809,
         "games_count": 85,
         "seasons": [
           "2024",
@@ -696,13 +696,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 42.347,
-        "adj_final": 42.32,
+        "adj_final": 42.321,
         "games_count": 83,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2752
+        "zscore_pooled": -1.2754
       }
     },
     "MUN": {
@@ -739,7 +739,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.877
+        "zscore_pooled": 0.8769
       }
     },
     "ULK": {
@@ -776,7 +776,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2463
+        "zscore_pooled": -1.2469
       }
     },
     "TEL": {
@@ -850,7 +850,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.5455
+        "zscore_pooled": 0.5454
       }
     },
     "BAR": {
@@ -880,14 +880,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 44.49,
-        "adj_final": 44.309,
-        "games_count": 78,
+        "PIR_allowed_per_100min": 44.468,
+        "adj_final": 44.331,
+        "games_count": 79,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.5834
+        "zscore_pooled": -0.5762
       }
     },
     "BER": {
@@ -924,7 +924,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 2.4848
+        "zscore_pooled": 2.4851
       }
     },
     "ZAL": {
@@ -961,7 +961,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.8745
+        "zscore_pooled": -0.875
       }
     },
     "VIR": {
@@ -998,7 +998,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.3605
+        "zscore_pooled": 0.3603
       }
     },
     "PAM": {
@@ -1035,7 +1035,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.2099
+        "zscore_pooled": -0.2102
       }
     },
     "PAR": {
@@ -1066,13 +1066,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 46.379,
-        "adj_final": 46.261,
+        "adj_final": 46.26,
         "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.0955
+        "zscore_pooled": 0.0949
       }
     },
     "IST": {
@@ -1109,7 +1109,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7403
+        "zscore_pooled": -0.7407
       }
     },
     "MAD": {
@@ -1146,7 +1146,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.6418
+        "zscore_pooled": -1.6424
       }
     },
     "ASV": {
@@ -1176,14 +1176,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 48.84,
-        "adj_final": 48.602,
-        "games_count": 71,
+        "PIR_allowed_per_100min": 48.879,
+        "adj_final": 48.6,
+        "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.9097
+        "zscore_pooled": 0.9089
       }
     },
     "MCO": {
@@ -1214,13 +1214,13 @@
       "historical": true,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.135,
-        "adj_final": 43.782,
+        "adj_final": 43.778,
         "games_count": 84,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7667
+        "zscore_pooled": -0.7685
       }
     },
     "MIL": {
@@ -1257,7 +1257,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.1337
+        "zscore_pooled": 0.1335
       }
     },
     "RED": {
@@ -1288,13 +1288,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.846,
-        "adj_final": 44.837,
+        "adj_final": 44.836,
         "games_count": 74,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.3998
+        "zscore_pooled": -0.4005
       }
     },
     "PAN": {
@@ -1325,7 +1325,7 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 45.159,
-        "adj_final": 44.808,
+        "adj_final": 44.809,
         "games_count": 85,
         "seasons": [
           "2024",
@@ -1345,15 +1345,15 @@
         "PIR_allowed_per_100min": 53.546
       },
       "sos": {
-        "SOS_raw": 45.638,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.642,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.415
       },
       "adjusted": {
         "adj_PIR_per_100min": 53.131,
         "weight": 1.0,
         "adj_final": 53.131,
-        "zscore_adj_final": 2.4437
+        "zscore_adj_final": 2.4436
       },
       "sample": {
         "games_count": 34,
@@ -1370,7 +1370,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 2.4848
+        "zscore_pooled": 2.4851
       }
     },
     "MUN": {
@@ -1382,15 +1382,15 @@
         "PIR_allowed_per_100min": 49.999
       },
       "sos": {
-        "SOS_raw": 45.208,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.213,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": -0.014
       },
       "adjusted": {
         "adj_PIR_per_100min": 50.013,
         "weight": 1.0,
         "adj_final": 50.013,
-        "zscore_adj_final": 1.4643
+        "zscore_adj_final": 1.464
       },
       "sample": {
         "games_count": 36,
@@ -1407,7 +1407,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.877
+        "zscore_pooled": 0.8769
       }
     },
     "PRS": {
@@ -1419,15 +1419,15 @@
         "PIR_allowed_per_100min": 47.8
       },
       "sos": {
-        "SOS_raw": 45.349,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.353,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.126
       },
       "adjusted": {
         "adj_PIR_per_100min": 47.674,
         "weight": 1.0,
         "adj_final": 47.674,
-        "zscore_adj_final": 0.7296
+        "zscore_adj_final": 0.7292
       },
       "sample": {
         "games_count": 38,
@@ -1449,39 +1449,39 @@
     },
     "ASV": {
       "raw": {
-        "PIR_allowed_total": 3138.0,
-        "min_allowed_total": 6560.56,
-        "games_count": 33,
-        "PIR_allowed_per_game": 95.091,
-        "PIR_allowed_per_100min": 47.831
+        "PIR_allowed_total": 3239.0,
+        "min_allowed_total": 6760.56,
+        "games_count": 34,
+        "PIR_allowed_per_game": 95.265,
+        "PIR_allowed_per_100min": 47.91
       },
       "sos": {
-        "SOS_raw": 45.313,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.09
+        "SOS_raw": 45.4,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.173
       },
       "adjusted": {
-        "adj_PIR_per_100min": 47.741,
+        "adj_PIR_per_100min": 47.737,
         "weight": 1.0,
-        "adj_final": 47.741,
-        "zscore_adj_final": 0.7507
+        "adj_final": 47.737,
+        "zscore_adj_final": 0.749
       },
       "sample": {
-        "games_count": 33,
+        "games_count": 34,
         "low_sample": false,
         "sample_quality": "high",
         "use_pooled_fallback": false
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 48.84,
-        "adj_final": 48.602,
-        "games_count": 71,
+        "PIR_allowed_per_100min": 48.879,
+        "adj_final": 48.6,
+        "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.9097
+        "zscore_pooled": 0.9089
       }
     },
     "TEL": {
@@ -1493,15 +1493,15 @@
         "PIR_allowed_per_100min": 50.326
       },
       "sos": {
-        "SOS_raw": 45.14,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.145,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": -0.082
       },
       "adjusted": {
         "adj_PIR_per_100min": 50.408,
         "weight": 1.0,
         "adj_final": 50.408,
-        "zscore_adj_final": 1.5884
+        "zscore_adj_final": 1.5881
       },
       "sample": {
         "games_count": 34,
@@ -1530,15 +1530,15 @@
         "PIR_allowed_per_100min": 45.884
       },
       "sos": {
-        "SOS_raw": 45.387,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.391,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.164
       },
       "adjusted": {
         "adj_PIR_per_100min": 45.72,
         "weight": 1.0,
         "adj_final": 45.72,
-        "zscore_adj_final": 0.1158
+        "zscore_adj_final": 0.1153
       },
       "sample": {
         "games_count": 34,
@@ -1555,44 +1555,44 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.3605
+        "zscore_pooled": 0.3603
       }
     },
     "BAR": {
       "raw": {
-        "PIR_allowed_total": 3388.0,
-        "min_allowed_total": 7604.56,
-        "games_count": 38,
-        "PIR_allowed_per_game": 89.158,
-        "PIR_allowed_per_100min": 44.552
+        "PIR_allowed_total": 3473.0,
+        "min_allowed_total": 7802.93,
+        "games_count": 39,
+        "PIR_allowed_per_game": 89.051,
+        "PIR_allowed_per_100min": 44.509
       },
       "sos": {
-        "SOS_raw": 45.428,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.206
+        "SOS_raw": 45.348,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.121
       },
       "adjusted": {
-        "adj_PIR_per_100min": 44.346,
+        "adj_PIR_per_100min": 44.388,
         "weight": 1.0,
-        "adj_final": 44.346,
-        "zscore_adj_final": -0.3158
+        "adj_final": 44.388,
+        "zscore_adj_final": -0.3032
       },
       "sample": {
-        "games_count": 38,
+        "games_count": 39,
         "low_sample": false,
         "sample_quality": "high",
         "use_pooled_fallback": false
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 44.49,
-        "adj_final": 44.309,
-        "games_count": 78,
+        "PIR_allowed_per_100min": 44.468,
+        "adj_final": 44.331,
+        "games_count": 79,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.5834
+        "zscore_pooled": -0.5762
       }
     },
     "PAR": {
@@ -1604,15 +1604,15 @@
         "PIR_allowed_per_100min": 44.046
       },
       "sos": {
-        "SOS_raw": 45.252,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.029
+        "SOS_raw": 45.256,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.03
       },
       "adjusted": {
-        "adj_PIR_per_100min": 44.017,
+        "adj_PIR_per_100min": 44.016,
         "weight": 1.0,
-        "adj_final": 44.017,
-        "zscore_adj_final": -0.4191
+        "adj_final": 44.016,
+        "zscore_adj_final": -0.42
       },
       "sample": {
         "games_count": 34,
@@ -1623,13 +1623,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 46.379,
-        "adj_final": 46.261,
+        "adj_final": 46.26,
         "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.0955
+        "zscore_pooled": 0.0949
       }
     },
     "IST": {
@@ -1641,15 +1641,15 @@
         "PIR_allowed_per_100min": 42.391
       },
       "sos": {
-        "SOS_raw": 45.702,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.706,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.48
       },
       "adjusted": {
         "adj_PIR_per_100min": 41.911,
         "weight": 1.0,
         "adj_final": 41.911,
-        "zscore_adj_final": -1.0806
+        "zscore_adj_final": -1.0814
       },
       "sample": {
         "games_count": 39,
@@ -1666,7 +1666,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7403
+        "zscore_pooled": -0.7407
       }
     },
     "MIL": {
@@ -1678,15 +1678,15 @@
         "PIR_allowed_per_100min": 45.614
       },
       "sos": {
-        "SOS_raw": 45.09,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.094,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": -0.132
       },
       "adjusted": {
         "adj_PIR_per_100min": 45.746,
         "weight": 1.0,
         "adj_final": 45.746,
-        "zscore_adj_final": 0.124
+        "zscore_adj_final": 0.1235
       },
       "sample": {
         "games_count": 34,
@@ -1703,7 +1703,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.1337
+        "zscore_pooled": 0.1335
       }
     },
     "BAS": {
@@ -1715,15 +1715,15 @@
         "PIR_allowed_per_100min": 45.52
       },
       "sos": {
-        "SOS_raw": 45.214,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.219,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": -0.008
       },
       "adjusted": {
         "adj_PIR_per_100min": 45.528,
         "weight": 1.0,
         "adj_final": 45.528,
-        "zscore_adj_final": 0.0555
+        "zscore_adj_final": 0.055
       },
       "sample": {
         "games_count": 34,
@@ -1740,7 +1740,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.5455
+        "zscore_pooled": 0.5454
       }
     },
     "ZAL": {
@@ -1752,15 +1752,15 @@
         "PIR_allowed_per_100min": 43.274
       },
       "sos": {
-        "SOS_raw": 45.615,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.62,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.393
       },
       "adjusted": {
         "adj_PIR_per_100min": 42.881,
         "weight": 1.0,
         "adj_final": 42.881,
-        "zscore_adj_final": -0.776
+        "zscore_adj_final": -0.7766
       },
       "sample": {
         "games_count": 34,
@@ -1777,7 +1777,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.8745
+        "zscore_pooled": -0.875
       }
     },
     "RED": {
@@ -1789,15 +1789,15 @@
         "PIR_allowed_per_100min": 44.025
       },
       "sos": {
-        "SOS_raw": 45.297,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.074
+        "SOS_raw": 45.301,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.075
       },
       "adjusted": {
-        "adj_PIR_per_100min": 43.951,
+        "adj_PIR_per_100min": 43.95,
         "weight": 1.0,
-        "adj_final": 43.951,
-        "zscore_adj_final": -0.4398
+        "adj_final": 43.95,
+        "zscore_adj_final": -0.4408
       },
       "sample": {
         "games_count": 35,
@@ -1808,13 +1808,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.846,
-        "adj_final": 44.837,
+        "adj_final": 44.836,
         "games_count": 74,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.3998
+        "zscore_pooled": -0.4005
       }
     },
     "ULK": {
@@ -1826,15 +1826,15 @@
         "PIR_allowed_per_100min": 42.872
       },
       "sos": {
-        "SOS_raw": 45.256,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.26,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.034
       },
       "adjusted": {
         "adj_PIR_per_100min": 42.838,
         "weight": 1.0,
         "adj_final": 42.838,
-        "zscore_adj_final": -0.7895
+        "zscore_adj_final": -0.7901
       },
       "sample": {
         "games_count": 39,
@@ -1851,7 +1851,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2463
+        "zscore_pooled": -1.2469
       }
     },
     "OLY": {
@@ -1863,15 +1863,15 @@
         "PIR_allowed_per_100min": 43.282
       },
       "sos": {
-        "SOS_raw": 45.335,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.113
+        "SOS_raw": 45.339,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.112
       },
       "adjusted": {
-        "adj_PIR_per_100min": 43.169,
+        "adj_PIR_per_100min": 43.17,
         "weight": 1.0,
-        "adj_final": 43.169,
-        "zscore_adj_final": -0.6855
+        "adj_final": 43.17,
+        "zscore_adj_final": -0.6858
       },
       "sample": {
         "games_count": 40,
@@ -1882,13 +1882,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 42.347,
-        "adj_final": 42.32,
+        "adj_final": 42.321,
         "games_count": 83,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2752
+        "zscore_pooled": -1.2754
       }
     },
     "MAD": {
@@ -1900,15 +1900,15 @@
         "PIR_allowed_per_100min": 41.365
       },
       "sos": {
-        "SOS_raw": 45.532,
-        "league_mean_OS": 45.222,
+        "SOS_raw": 45.536,
+        "league_mean_OS": 45.227,
         "SOS_adjustment": 0.309
       },
       "adjusted": {
         "adj_PIR_per_100min": 41.056,
         "weight": 1.0,
         "adj_final": 41.056,
-        "zscore_adj_final": -1.3492
+        "zscore_adj_final": -1.35
       },
       "sample": {
         "games_count": 40,
@@ -1925,7 +1925,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.6418
+        "zscore_pooled": -1.6424
       }
     },
     "PAN": {
@@ -1937,15 +1937,15 @@
         "PIR_allowed_per_100min": 43.998
       },
       "sos": {
-        "SOS_raw": 45.496,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.274
+        "SOS_raw": 45.5,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.273
       },
       "adjusted": {
-        "adj_PIR_per_100min": 43.724,
+        "adj_PIR_per_100min": 43.725,
         "weight": 1.0,
-        "adj_final": 43.724,
-        "zscore_adj_final": -0.5112
+        "adj_final": 43.725,
+        "zscore_adj_final": -0.5115
       },
       "sample": {
         "games_count": 41,
@@ -1956,7 +1956,7 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 45.159,
-        "adj_final": 44.808,
+        "adj_final": 44.809,
         "games_count": 85,
         "seasons": [
           "2024",
@@ -1974,15 +1974,15 @@
         "PIR_allowed_per_100min": 42.819
       },
       "sos": {
-        "SOS_raw": 45.572,
-        "league_mean_OS": 45.222,
-        "SOS_adjustment": 0.35
+        "SOS_raw": 45.583,
+        "league_mean_OS": 45.227,
+        "SOS_adjustment": 0.357
       },
       "adjusted": {
-        "adj_PIR_per_100min": 42.469,
+        "adj_PIR_per_100min": 42.462,
         "weight": 1.0,
-        "adj_final": 42.469,
-        "zscore_adj_final": -0.9054
+        "adj_final": 42.462,
+        "zscore_adj_final": -0.9083
       },
       "sample": {
         "games_count": 41,
@@ -1993,13 +1993,13 @@
       "historical": true,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.135,
-        "adj_final": 43.782,
+        "adj_final": 43.778,
         "games_count": 84,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7667
+        "zscore_pooled": -0.7685
       }
     }
   },
@@ -2038,7 +2038,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.877
+        "zscore_pooled": 0.8769
       }
     },
     "ASV": {
@@ -2068,14 +2068,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 48.84,
-        "adj_final": 48.602,
-        "games_count": 71,
+        "PIR_allowed_per_100min": 48.879,
+        "adj_final": 48.6,
+        "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.9097
+        "zscore_pooled": 0.9089
       }
     },
     "MIL": {
@@ -2112,7 +2112,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.1337
+        "zscore_pooled": 0.1335
       }
     },
     "PAR": {
@@ -2143,13 +2143,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 46.379,
-        "adj_final": 46.261,
+        "adj_final": 46.26,
         "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.0955
+        "zscore_pooled": 0.0949
       }
     },
     "MCO": {
@@ -2180,13 +2180,13 @@
       "historical": true,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.135,
-        "adj_final": 43.782,
+        "adj_final": 43.778,
         "games_count": 84,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7667
+        "zscore_pooled": -0.7685
       }
     },
     "PAM": {
@@ -2223,7 +2223,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.2099
+        "zscore_pooled": -0.2102
       }
     },
     "BAR": {
@@ -2253,14 +2253,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 44.49,
-        "adj_final": 44.309,
-        "games_count": 78,
+        "PIR_allowed_per_100min": 44.468,
+        "adj_final": 44.331,
+        "games_count": 79,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.5834
+        "zscore_pooled": -0.5762
       }
     },
     "IST": {
@@ -2297,7 +2297,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7403
+        "zscore_pooled": -0.7407
       }
     },
     "DUB": {
@@ -2334,7 +2334,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.428
+        "zscore_pooled": 0.4278
       }
     },
     "HTA": {
@@ -2371,7 +2371,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.4485
+        "zscore_pooled": -0.4488
       }
     },
     "ZAL": {
@@ -2408,7 +2408,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.8745
+        "zscore_pooled": -0.875
       }
     },
     "BAS": {
@@ -2445,7 +2445,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.5455
+        "zscore_pooled": 0.5454
       }
     },
     "TEL": {
@@ -2513,13 +2513,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 42.347,
-        "adj_final": 42.32,
+        "adj_final": 42.321,
         "games_count": 83,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2752
+        "zscore_pooled": -1.2754
       }
     },
     "PAN": {
@@ -2550,7 +2550,7 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 45.159,
-        "adj_final": 44.808,
+        "adj_final": 44.809,
         "games_count": 85,
         "seasons": [
           "2024",
@@ -2593,7 +2593,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.3605
+        "zscore_pooled": 0.3603
       }
     },
     "RED": {
@@ -2624,13 +2624,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.846,
-        "adj_final": 44.837,
+        "adj_final": 44.836,
         "games_count": 74,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.3998
+        "zscore_pooled": -0.4005
       }
     },
     "ULK": {
@@ -2667,7 +2667,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2463
+        "zscore_pooled": -1.2469
       }
     },
     "PRS": {
@@ -2741,32 +2741,32 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.6418
+        "zscore_pooled": -1.6424
       }
     }
   },
   "2026": {
     "RED": {
       "raw": {
-        "PIR_allowed_total": 266.0,
-        "min_allowed_total": 593.76,
-        "games_count": 3,
-        "PIR_allowed_per_game": 88.667,
-        "PIR_allowed_per_100min": 44.799
+        "PIR_allowed_total": 320.0,
+        "min_allowed_total": 793.75,
+        "games_count": 4,
+        "PIR_allowed_per_game": 80.0,
+        "PIR_allowed_per_100min": 40.315
       },
       "sos": {
-        "SOS_raw": 46.353,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -0.243
+        "SOS_raw": 44.315,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -2.193
       },
       "adjusted": {
-        "adj_PIR_per_100min": 45.042,
-        "weight": 0.2,
-        "adj_final": 46.289,
-        "zscore_adj_final": -0.3659
+        "adj_PIR_per_100min": 42.508,
+        "weight": 0.2667,
+        "adj_final": 45.498,
+        "zscore_adj_final": -0.9477
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -2774,13 +2774,13 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 44.846,
-        "adj_final": 44.837,
+        "adj_final": 44.836,
         "games_count": 74,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.3998
+        "zscore_pooled": -0.4005
       }
     },
     "OLY": {
@@ -2792,15 +2792,15 @@
         "PIR_allowed_per_100min": 49.193
       },
       "sos": {
-        "SOS_raw": 45.978,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -0.618
+        "SOS_raw": 46.691,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 0.183
       },
       "adjusted": {
-        "adj_PIR_per_100min": 49.811,
+        "adj_PIR_per_100min": 49.01,
         "weight": 0.2,
-        "adj_final": 47.243,
-        "zscore_adj_final": 0.7542
+        "adj_final": 47.07,
+        "zscore_adj_final": 0.4486
       },
       "sample": {
         "games_count": 3,
@@ -2811,36 +2811,36 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 42.347,
-        "adj_final": 42.32,
+        "adj_final": 42.321,
         "games_count": 83,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -1.2752
+        "zscore_pooled": -1.2754
       }
     },
     "PRS": {
       "raw": {
-        "PIR_allowed_total": 314.0,
-        "min_allowed_total": 592.02,
-        "games_count": 3,
-        "PIR_allowed_per_game": 104.667,
-        "PIR_allowed_per_100min": 53.039
+        "PIR_allowed_total": 426.0,
+        "min_allowed_total": 787.24,
+        "games_count": 4,
+        "PIR_allowed_per_game": 106.5,
+        "PIR_allowed_per_100min": 54.113
       },
       "sos": {
-        "SOS_raw": 53.569,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 6.973
+        "SOS_raw": 50.529,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 4.021
       },
       "adjusted": {
-        "adj_PIR_per_100min": 46.066,
-        "weight": 0.2,
-        "adj_final": 46.494,
-        "zscore_adj_final": -0.1252
+        "adj_PIR_per_100min": 50.092,
+        "weight": 0.2667,
+        "adj_final": 47.52,
+        "zscore_adj_final": 0.8483
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -2859,62 +2859,62 @@
     },
     "ASV": {
       "raw": {
-        "PIR_allowed_total": 320.0,
-        "min_allowed_total": 592.09,
-        "games_count": 3,
-        "PIR_allowed_per_game": 106.667,
-        "PIR_allowed_per_100min": 54.046
+        "PIR_allowed_total": 413.0,
+        "min_allowed_total": 792.1,
+        "games_count": 4,
+        "PIR_allowed_per_game": 103.25,
+        "PIR_allowed_per_100min": 52.14
       },
       "sos": {
-        "SOS_raw": 52.583,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 5.987
+        "SOS_raw": 49.095,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 2.587
       },
       "adjusted": {
-        "adj_PIR_per_100min": 48.059,
-        "weight": 0.2,
-        "adj_final": 46.892,
-        "zscore_adj_final": 0.3421
+        "adj_PIR_per_100min": 49.553,
+        "weight": 0.2667,
+        "adj_final": 47.377,
+        "zscore_adj_final": 0.7213
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 48.84,
-        "adj_final": 48.602,
-        "games_count": 71,
+        "PIR_allowed_per_100min": 48.879,
+        "adj_final": 48.6,
+        "games_count": 72,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.9097
+        "zscore_pooled": 0.9089
       }
     },
     "TEL": {
       "raw": {
-        "PIR_allowed_total": 301.0,
-        "min_allowed_total": 592.63,
-        "games_count": 3,
-        "PIR_allowed_per_game": 100.333,
-        "PIR_allowed_per_100min": 50.791
+        "PIR_allowed_total": 393.0,
+        "min_allowed_total": 792.62,
+        "games_count": 4,
+        "PIR_allowed_per_game": 98.25,
+        "PIR_allowed_per_100min": 49.582
       },
       "sos": {
-        "SOS_raw": 48.716,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 2.12
+        "SOS_raw": 47.846,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 1.338
       },
       "adjusted": {
-        "adj_PIR_per_100min": 48.671,
-        "weight": 0.2,
-        "adj_final": 47.015,
-        "zscore_adj_final": 0.4865
+        "adj_PIR_per_100min": 48.244,
+        "weight": 0.2667,
+        "adj_final": 47.027,
+        "zscore_adj_final": 0.4104
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -2931,27 +2931,64 @@
         "zscore_pooled": 1.5921
       }
     },
-    "DUB": {
+    "ULK": {
       "raw": {
-        "PIR_allowed_total": 229.0,
-        "min_allowed_total": 592.1,
-        "games_count": 3,
-        "PIR_allowed_per_game": 76.333,
-        "PIR_allowed_per_100min": 38.676
+        "PIR_allowed_total": 294.0,
+        "min_allowed_total": 790.46,
+        "games_count": 4,
+        "PIR_allowed_per_game": 73.5,
+        "PIR_allowed_per_100min": 37.194
       },
       "sos": {
-        "SOS_raw": 46.486,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -0.11
+        "SOS_raw": 45.984,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -0.523
       },
       "adjusted": {
-        "adj_PIR_per_100min": 38.786,
-        "weight": 0.2,
-        "adj_final": 45.038,
-        "zscore_adj_final": -1.8348
+        "adj_PIR_per_100min": 37.717,
+        "weight": 0.2667,
+        "adj_final": 44.22,
+        "zscore_adj_final": -2.0828
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 42.666,
+        "adj_final": 42.403,
+        "games_count": 82,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.2469
+      }
+    },
+    "DUB": {
+      "raw": {
+        "PIR_allowed_total": 316.0,
+        "min_allowed_total": 792.11,
+        "games_count": 4,
+        "PIR_allowed_per_game": 79.0,
+        "PIR_allowed_per_100min": 39.893
+      },
+      "sos": {
+        "SOS_raw": 44.318,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -2.19
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 42.083,
+        "weight": 0.2667,
+        "adj_final": 45.385,
+        "zscore_adj_final": -1.048
+      },
+      "sample": {
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -2965,7 +3002,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.428
+        "zscore_pooled": 0.4278
       }
     },
     "IST": {
@@ -2977,15 +3014,15 @@
         "PIR_allowed_per_100min": 43.223
       },
       "sos": {
-        "SOS_raw": 43.723,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -2.873
+        "SOS_raw": 43.882,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -2.626
       },
       "adjusted": {
-        "adj_PIR_per_100min": 46.096,
+        "adj_PIR_per_100min": 45.849,
         "weight": 0.2,
-        "adj_final": 46.5,
-        "zscore_adj_final": -0.1182
+        "adj_final": 46.438,
+        "zscore_adj_final": -0.1128
       },
       "sample": {
         "games_count": 3,
@@ -3002,30 +3039,30 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.7403
+        "zscore_pooled": -0.7407
       }
     },
     "HTA": {
       "raw": {
-        "PIR_allowed_total": 277.0,
-        "min_allowed_total": 597.42,
-        "games_count": 3,
-        "PIR_allowed_per_game": 92.333,
-        "PIR_allowed_per_100min": 46.366
+        "PIR_allowed_total": 371.0,
+        "min_allowed_total": 792.95,
+        "games_count": 4,
+        "PIR_allowed_per_game": 92.75,
+        "PIR_allowed_per_100min": 46.787
       },
       "sos": {
-        "SOS_raw": 43.105,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -3.491
+        "SOS_raw": 46.357,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -0.151
       },
       "adjusted": {
-        "adj_PIR_per_100min": 49.857,
-        "weight": 0.2,
-        "adj_final": 47.252,
-        "zscore_adj_final": 0.7648
+        "adj_PIR_per_100min": 46.938,
+        "weight": 0.2667,
+        "adj_final": 46.679,
+        "zscore_adj_final": 0.1013
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3039,30 +3076,67 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.4485
+        "zscore_pooled": -0.4488
+      }
+    },
+    "PAR": {
+      "raw": {
+        "PIR_allowed_total": 337.0,
+        "min_allowed_total": 796.63,
+        "games_count": 4,
+        "PIR_allowed_per_game": 84.25,
+        "PIR_allowed_per_100min": 42.303
+      },
+      "sos": {
+        "SOS_raw": 41.727,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -4.781
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.084,
+        "weight": 0.2667,
+        "adj_final": 46.718,
+        "zscore_adj_final": 0.1359
+      },
+      "sample": {
+        "games_count": 4,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 46.379,
+        "adj_final": 46.26,
+        "games_count": 72,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": 0.0949
       }
     },
     "PAN": {
       "raw": {
-        "PIR_allowed_total": 188.0,
-        "min_allowed_total": 597.67,
-        "games_count": 3,
-        "PIR_allowed_per_game": 62.667,
-        "PIR_allowed_per_100min": 31.455
+        "PIR_allowed_total": 254.0,
+        "min_allowed_total": 797.67,
+        "games_count": 4,
+        "PIR_allowed_per_game": 63.5,
+        "PIR_allowed_per_100min": 31.843
       },
       "sos": {
-        "SOS_raw": 38.939,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -7.657
+        "SOS_raw": 43.244,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -3.264
       },
       "adjusted": {
-        "adj_PIR_per_100min": 39.112,
-        "weight": 0.2,
-        "adj_final": 45.103,
-        "zscore_adj_final": -1.7585
+        "adj_PIR_per_100min": 35.107,
+        "weight": 0.2667,
+        "adj_final": 43.524,
+        "zscore_adj_final": -2.7009
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3070,7 +3144,7 @@
       "historical": false,
       "pooled_2024_2025": {
         "PIR_allowed_per_100min": 45.159,
-        "adj_final": 44.808,
+        "adj_final": 44.809,
         "games_count": 85,
         "seasons": [
           "2024",
@@ -3081,25 +3155,25 @@
     },
     "PAM": {
       "raw": {
-        "PIR_allowed_total": 271.0,
-        "min_allowed_total": 592.16,
-        "games_count": 3,
-        "PIR_allowed_per_game": 90.333,
-        "PIR_allowed_per_100min": 45.765
+        "PIR_allowed_total": 362.0,
+        "min_allowed_total": 788.54,
+        "games_count": 4,
+        "PIR_allowed_per_game": 90.5,
+        "PIR_allowed_per_100min": 45.908
       },
       "sos": {
-        "SOS_raw": 44.812,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -1.784
+        "SOS_raw": 46.509,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 0.001
       },
       "adjusted": {
-        "adj_PIR_per_100min": 47.549,
-        "weight": 0.2,
-        "adj_final": 46.79,
-        "zscore_adj_final": 0.2223
+        "adj_PIR_per_100min": 45.907,
+        "weight": 0.2667,
+        "adj_final": 46.404,
+        "zscore_adj_final": -0.143
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3113,67 +3187,30 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.2099
-      }
-    },
-    "PAR": {
-      "raw": {
-        "PIR_allowed_total": 249.0,
-        "min_allowed_total": 596.64,
-        "games_count": 3,
-        "PIR_allowed_per_game": 83.0,
-        "PIR_allowed_per_100min": 41.734
-      },
-      "sos": {
-        "SOS_raw": 40.075,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -6.521
-      },
-      "adjusted": {
-        "adj_PIR_per_100min": 48.255,
-        "weight": 0.2,
-        "adj_final": 46.931,
-        "zscore_adj_final": 0.3879
-      },
-      "sample": {
-        "games_count": 3,
-        "low_sample": true,
-        "sample_quality": "very_low",
-        "use_pooled_fallback": true
-      },
-      "historical": false,
-      "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 46.379,
-        "adj_final": 46.261,
-        "games_count": 72,
-        "seasons": [
-          "2024",
-          "2025"
-        ],
-        "zscore_pooled": 0.0955
+        "zscore_pooled": -0.2102
       }
     },
     "VIR": {
       "raw": {
-        "PIR_allowed_total": 287.0,
-        "min_allowed_total": 596.64,
-        "games_count": 3,
-        "PIR_allowed_per_game": 95.667,
-        "PIR_allowed_per_100min": 48.103
+        "PIR_allowed_total": 362.0,
+        "min_allowed_total": 793.7,
+        "games_count": 4,
+        "PIR_allowed_per_game": 90.5,
+        "PIR_allowed_per_100min": 45.609
       },
       "sos": {
-        "SOS_raw": 49.406,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 2.81
+        "SOS_raw": 46.914,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 0.406
       },
       "adjusted": {
-        "adj_PIR_per_100min": 45.293,
-        "weight": 0.2,
-        "adj_final": 46.339,
-        "zscore_adj_final": -0.3072
+        "adj_PIR_per_100min": 45.203,
+        "weight": 0.2667,
+        "adj_final": 46.217,
+        "zscore_adj_final": -0.309
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3187,7 +3224,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.3605
+        "zscore_pooled": 0.3603
       }
     },
     "BAS": {
@@ -3199,15 +3236,15 @@
         "PIR_allowed_per_100min": 58.333
       },
       "sos": {
-        "SOS_raw": 52.784,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 6.188
+        "SOS_raw": 52.259,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 5.751
       },
       "adjusted": {
-        "adj_PIR_per_100min": 52.145,
+        "adj_PIR_per_100min": 52.582,
         "weight": 0.2,
-        "adj_final": 47.709,
-        "zscore_adj_final": 1.3014
+        "adj_final": 47.784,
+        "zscore_adj_final": 1.0828
       },
       "sample": {
         "games_count": 3,
@@ -3224,30 +3261,30 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.5455
+        "zscore_pooled": 0.5454
       }
     },
     "MUN": {
       "raw": {
-        "PIR_allowed_total": 312.0,
-        "min_allowed_total": 600.02,
-        "games_count": 3,
-        "PIR_allowed_per_game": 104.0,
-        "PIR_allowed_per_100min": 51.998
+        "PIR_allowed_total": 417.0,
+        "min_allowed_total": 800.03,
+        "games_count": 4,
+        "PIR_allowed_per_game": 104.25,
+        "PIR_allowed_per_100min": 52.123
       },
       "sos": {
-        "SOS_raw": 50.927,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 4.331
+        "SOS_raw": 47.933,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 1.425
       },
       "adjusted": {
-        "adj_PIR_per_100min": 47.667,
-        "weight": 0.2,
-        "adj_final": 46.814,
-        "zscore_adj_final": 0.2505
+        "adj_PIR_per_100min": 50.698,
+        "weight": 0.2667,
+        "adj_final": 47.682,
+        "zscore_adj_final": 0.9922
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3261,44 +3298,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.877
-      }
-    },
-    "ULK": {
-      "raw": {
-        "PIR_allowed_total": 186.0,
-        "min_allowed_total": 591.99,
-        "games_count": 3,
-        "PIR_allowed_per_game": 62.0,
-        "PIR_allowed_per_100min": 31.419
-      },
-      "sos": {
-        "SOS_raw": 43.39,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -3.205
-      },
-      "adjusted": {
-        "adj_PIR_per_100min": 34.624,
-        "weight": 0.2,
-        "adj_final": 44.205,
-        "zscore_adj_final": -2.8129
-      },
-      "sample": {
-        "games_count": 3,
-        "low_sample": true,
-        "sample_quality": "very_low",
-        "use_pooled_fallback": true
-      },
-      "historical": false,
-      "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 42.666,
-        "adj_final": 42.403,
-        "games_count": 82,
-        "seasons": [
-          "2024",
-          "2025"
-        ],
-        "zscore_pooled": -1.2463
+        "zscore_pooled": 0.8769
       }
     },
     "BES": {
@@ -3310,15 +3310,15 @@
         "PIR_allowed_per_100min": 51.955
       },
       "sos": {
-        "SOS_raw": 48.515,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 1.919
+        "SOS_raw": 48.793,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 2.285
       },
       "adjusted": {
-        "adj_PIR_per_100min": 50.036,
+        "adj_PIR_per_100min": 49.67,
         "weight": 0.2,
-        "adj_final": 47.288,
-        "zscore_adj_final": 0.8071
+        "adj_final": 47.202,
+        "zscore_adj_final": 0.5658
       },
       "sample": {
         "games_count": 3,
@@ -3330,25 +3330,25 @@
     },
     "MIL": {
       "raw": {
-        "PIR_allowed_total": 309.0,
-        "min_allowed_total": 593.16,
-        "games_count": 3,
-        "PIR_allowed_per_game": 103.0,
-        "PIR_allowed_per_100min": 52.094
+        "PIR_allowed_total": 419.0,
+        "min_allowed_total": 793.17,
+        "games_count": 4,
+        "PIR_allowed_per_game": 104.75,
+        "PIR_allowed_per_100min": 52.826
       },
       "sos": {
-        "SOS_raw": 48.394,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": 1.798
+        "SOS_raw": 47.123,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": 0.615
       },
       "adjusted": {
-        "adj_PIR_per_100min": 50.296,
-        "weight": 0.2,
-        "adj_final": 47.34,
-        "zscore_adj_final": 0.8681
+        "adj_PIR_per_100min": 52.211,
+        "weight": 0.2667,
+        "adj_final": 48.085,
+        "zscore_adj_final": 1.3501
       },
       "sample": {
-        "games_count": 3,
+        "games_count": 4,
         "low_sample": true,
         "sample_quality": "very_low",
         "use_pooled_fallback": true
@@ -3362,7 +3362,44 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": 0.1337
+        "zscore_pooled": 0.1335
+      }
+    },
+    "MAD": {
+      "raw": {
+        "PIR_allowed_total": 367.0,
+        "min_allowed_total": 791.94,
+        "games_count": 4,
+        "PIR_allowed_per_game": 91.75,
+        "PIR_allowed_per_100min": 46.342
+      },
+      "sos": {
+        "SOS_raw": 45.461,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -1.047
+      },
+      "adjusted": {
+        "adj_PIR_per_100min": 47.389,
+        "weight": 0.2667,
+        "adj_final": 46.799,
+        "zscore_adj_final": 0.2079
+      },
+      "sample": {
+        "games_count": 4,
+        "low_sample": true,
+        "sample_quality": "very_low",
+        "use_pooled_fallback": true
+      },
+      "historical": false,
+      "pooled_2024_2025": {
+        "PIR_allowed_per_100min": 41.506,
+        "adj_final": 41.266,
+        "games_count": 84,
+        "seasons": [
+          "2024",
+          "2025"
+        ],
+        "zscore_pooled": -1.6424
       }
     },
     "ZAL": {
@@ -3374,15 +3411,15 @@
         "PIR_allowed_per_100min": 45.973
       },
       "sos": {
-        "SOS_raw": 45.122,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -1.473
+        "SOS_raw": 46.165,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -0.343
       },
       "adjusted": {
-        "adj_PIR_per_100min": 47.446,
+        "adj_PIR_per_100min": 46.316,
         "weight": 0.2,
-        "adj_final": 46.77,
-        "zscore_adj_final": 0.1988
+        "adj_final": 46.531,
+        "zscore_adj_final": -0.0302
       },
       "sample": {
         "games_count": 3,
@@ -3399,7 +3436,7 @@
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.8745
+        "zscore_pooled": -0.875
       }
     },
     "BAR": {
@@ -3411,15 +3448,15 @@
         "PIR_allowed_per_100min": 46.047
       },
       "sos": {
-        "SOS_raw": 44.492,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -2.104
+        "SOS_raw": 43.198,
+        "league_mean_OS": 46.508,
+        "SOS_adjustment": -3.31
       },
       "adjusted": {
-        "adj_PIR_per_100min": 48.151,
+        "adj_PIR_per_100min": 49.357,
         "weight": 0.2,
-        "adj_final": 46.911,
-        "zscore_adj_final": 0.3644
+        "adj_final": 47.139,
+        "zscore_adj_final": 0.5099
       },
       "sample": {
         "games_count": 3,
@@ -3429,51 +3466,14 @@
       },
       "historical": false,
       "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 44.49,
-        "adj_final": 44.309,
-        "games_count": 78,
+        "PIR_allowed_per_100min": 44.468,
+        "adj_final": 44.331,
+        "games_count": 79,
         "seasons": [
           "2024",
           "2025"
         ],
-        "zscore_pooled": -0.5834
-      }
-    },
-    "MAD": {
-      "raw": {
-        "PIR_allowed_total": 282.0,
-        "min_allowed_total": 599.98,
-        "games_count": 3,
-        "PIR_allowed_per_game": 94.0,
-        "PIR_allowed_per_100min": 47.002
-      },
-      "sos": {
-        "SOS_raw": 44.548,
-        "league_mean_OS": 46.596,
-        "SOS_adjustment": -2.048
-      },
-      "adjusted": {
-        "adj_PIR_per_100min": 49.05,
-        "weight": 0.2,
-        "adj_final": 47.09,
-        "zscore_adj_final": 0.5746
-      },
-      "sample": {
-        "games_count": 3,
-        "low_sample": true,
-        "sample_quality": "very_low",
-        "use_pooled_fallback": true
-      },
-      "historical": false,
-      "pooled_2024_2025": {
-        "PIR_allowed_per_100min": 41.506,
-        "adj_final": 41.266,
-        "games_count": 84,
-        "seasons": [
-          "2024",
-          "2025"
-        ],
-        "zscore_pooled": -1.6418
+        "zscore_pooled": -0.5762
       }
     }
   }

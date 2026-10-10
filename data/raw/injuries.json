@@ -1,23 +1,23 @@
 {
-  "scraped_at": "2026-10-09T15:53:48.721971+00:00",
+  "scraped_at": "2026-10-10T04:49:48.723443+00:00",
   "source_url": "https://basketnews.com/leagues/25-euroleague/injured.html",
-  "total": 103,
+  "total": 91,
   "by_team": {
-    "ULK": 8,
-    "MIL": 5,
+    "ULK": 7,
+    "MIL": 3,
     "BES": 2,
-    "RED": 11,
+    "RED": 9,
     "DUB": 7,
     "MUN": 2,
-    "BAR": 5,
+    "BAR": 3,
     "IST": 3,
     "HTA": 10,
-    "BAS": 3,
+    "BAS": 1,
     "ASV": 4,
     "TEL": 4,
-    "OLY": 8,
+    "OLY": 6,
     "PAN": 5,
-    "PRS": 5,
+    "PRS": 4,
     "PAR": 6,
     "MAD": 6,
     "PAM": 4,
@@ -25,11 +25,9 @@
     "ZAL": 3
   },
   "by_status": {
-    "out": 45,
-    "uncertain": 44,
-    "game_time": 4,
-    "ready": 6,
-    "expected": 4
+    "out": 35,
+    "uncertain": 54,
+    "expected": 2
   },
   "players": [
     {
@@ -51,8 +49,8 @@
       "player_name": "Ruzgar Fenemen",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "ULK",
@@ -84,8 +82,8 @@
       "player_name": "D. Karutasu",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "ULK",
@@ -95,19 +93,8 @@
       "player_name": "David Mutaf",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision). Played in the domestic league (10.04)"
-    },
-    {
-      "team": "ULK",
-      "team_raw": "Anadolu Efes Istanbul",
-      "position": "G",
-      "position_raw": "PG",
-      "player_name": "Cameron Payne",
-      "status": "game_time",
-      "status_raw": "Game-time",
-      "round": "Round 4",
-      "comment": "New signing"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision). Played in the domestic league (10.04)"
     },
     {
       "team": "ULK",
@@ -126,21 +113,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Nicola Akele",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
-    },
-    {
-      "team": "MIL",
-      "team_raw": "Armani Olimpia Milan",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Ousmane Diop",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "Not included in 12-man roster in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "MIL",
@@ -148,9 +124,9 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Diego Flaccadori",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
       "comment": "Not included in 12-man roster (coach's decision)"
     },
     {
@@ -158,21 +134,10 @@
       "team_raw": "Armani Olimpia Milan",
       "position": "G",
       "position_raw": "PG",
-      "player_name": "Marko Guduric",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "DNP in Round 3 by personal reasons.Played in the domestic league (10.05)"
-    },
-    {
-      "team": "MIL",
-      "team_raw": "Armani Olimpia Milan",
-      "position": "G",
-      "position_raw": "PG",
       "player_name": "Stefano Tonut",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
       "comment": "Left hand contusion"
     },
     {
@@ -183,8 +148,8 @@
       "player_name": "Yagiz Aksu",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "Not included in 12-man roster in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "BES",
@@ -192,21 +157,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "DaQuan Jeffries",
-      "status": "uncertain",
-      "status_raw": "Uncertain",
-      "round": "Round 4",
+      "status": "out",
+      "status_raw": "Out",
+      "round": "Indefinitely",
       "comment": "Suffered left wrist fracture in Round 1 vs. Valencia"
-    },
-    {
-      "team": "RED",
-      "team_raw": "Crvena Zvezda Meridianbet Belgrade",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Patrick Baldwin Jr.",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Traveled with the team for Round 4 after DNPs in Round 1-3 (back injury)"
     },
     {
       "team": "RED",
@@ -225,10 +179,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Andrej Bjelic",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "RED",
@@ -236,10 +190,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Dejan Davidovac",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Traveled with the team for Round 4 after playing in the domestic league during the weekend, after a DNP in Rounds 1-3"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4"
     },
     {
       "team": "RED",
@@ -247,21 +201,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Nikola Djurisic",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Traveled with the team for Round 4 after playing in the domestic league during the weekend after a DNP in Rounds 2-3 (quad injury)"
-    },
-    {
-      "team": "RED",
-      "team_raw": "Crvena Zvezda Meridianbet Belgrade",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Ognjen Dobric",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Suffered a problem during practice (undisclosed injury)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 2-4 (quad injury)"
     },
     {
       "team": "RED",
@@ -280,10 +223,10 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Stefan Miljenovic",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Didn't travel with the team for Round 4 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (coach's decision)"
     },
     {
       "team": "RED",
@@ -382,7 +325,7 @@
       "status": "uncertain",
       "status_raw": "Uncertain",
       "round": "Round 5",
-      "comment": "DNP in Round 1-4 (undisclosed)"
+      "comment": "DNP in Rounds 1-4 (undisclosed)"
     },
     {
       "team": "DUB",
@@ -420,24 +363,13 @@
     {
       "team": "BAR",
       "team_raw": "FC Barcelona",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Tosan Evbuomwan",
-      "status": "game_time",
-      "status_raw": "Game-time",
-      "round": "Round 4",
-      "comment": "Joined the team practices (left shoulder injury)"
-    },
-    {
-      "team": "BAR",
-      "team_raw": "FC Barcelona",
       "position": "C",
       "position_raw": "C",
       "player_name": "Abdu Kone",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Rounds 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "BAR",
@@ -460,17 +392,6 @@
       "status_raw": "Out",
       "round": "Round 4-6",
       "comment": "Right thigh adductor muscle injury"
-    },
-    {
-      "team": "BAR",
-      "team_raw": "FC Barcelona",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Josh Nebo",
-      "status": "game_time",
-      "status_raw": "Game-time",
-      "round": "Round 4",
-      "comment": "Joined the team practices (right calf injury)"
     },
     {
       "team": "IST",
@@ -620,33 +541,11 @@
       "team_raw": "Kosner Baskonia Vitoria-Gasteiz",
       "position": "F",
       "position_raw": "SF",
-      "player_name": "Clement Frisch",
-      "status": "uncertain",
-      "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Round 3 (coach's decision). Played in the domestic league (10.04)"
-    },
-    {
-      "team": "BAS",
-      "team_raw": "Kosner Baskonia Vitoria-Gasteiz",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Tadas Sedekerskis",
-      "status": "ready",
-      "status_raw": "Ready",
-      "round": "Round 4",
-      "comment": "Played only 5 minutes in the first quarter of Round 3. Played in the domestic league (10.04)"
-    },
-    {
-      "team": "BAS",
-      "team_raw": "Kosner Baskonia Vitoria-Gasteiz",
-      "position": "F",
-      "position_raw": "SF",
       "player_name": "Pedro Souza",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "Not included in 12-man roster in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "ASV",
@@ -744,8 +643,8 @@
       "player_name": "Georgios Bourneles",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "OLY",
@@ -755,8 +654,8 @@
       "player_name": "Donta Hall",
       "status": "expected",
       "status_raw": "Expected",
-      "round": "Round 4",
-      "comment": "Expected to be available, as Bartzokas confirmed there are no injured players (left for the US due to personal reasons, his return is scheduled for Thursday)"
+      "round": "Round 5",
+      "comment": "Left for the US due to personal reasons, returned on Thursday, but coach Bartzokas did not want to risk him in Round 4"
     },
     {
       "team": "OLY",
@@ -766,30 +665,8 @@
       "player_name": "Antonios Karagiannidis",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
-    },
-    {
-      "team": "OLY",
-      "team_raw": "Olympiacos Piraeus",
-      "position": "C",
-      "position_raw": "C",
-      "player_name": "Nikola Milutinov",
-      "status": "expected",
-      "status_raw": "Expected",
-      "round": "Round 4",
-      "comment": "Played in domestic league on Sunday after DNP in Round 2-3 (tendinitis)"
-    },
-    {
-      "team": "OLY",
-      "team_raw": "Olympiacos Piraeus",
-      "position": "G",
-      "position_raw": "PG",
-      "player_name": "Jean Montero",
-      "status": "expected",
-      "status_raw": "Expected",
-      "round": "Round 4",
-      "comment": "Expected to be available, as Bartzokas confirmed there are no injured players (DNP in domestic league on Sunday due to illness)"
+      "round": "Round 5",
+      "comment": "DNP in Round 1-4 (coach's decision)"
     },
     {
       "team": "OLY",
@@ -799,8 +676,8 @@
       "player_name": "Omiros Netzipoglou",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "OLY",
@@ -810,8 +687,8 @@
       "player_name": "George Papas",
       "status": "uncertain",
       "status_raw": "Uncertain",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision)"
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "OLY",
@@ -893,17 +770,6 @@
     {
       "team": "PRS",
       "team_raw": "Paris Basketball",
-      "position": "F",
-      "position_raw": "SF",
-      "player_name": "Amath M'Baye",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Out of team",
-      "comment": "Not included in official Euroleague roster, left the team"
-    },
-    {
-      "team": "PRS",
-      "team_raw": "Paris Basketball",
       "position": "G",
       "position_raw": "PG",
       "player_name": "Frank Ntilikina",
@@ -951,10 +817,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Uros Danilovic",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Not included in 12-man roster in Rounds 2-3 (coach's decision)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "Not included in 12-man roster in Rounds 2-4 (coach's decision)"
     },
     {
       "team": "PAR",
@@ -984,10 +850,10 @@
       "position": "F",
       "position_raw": "SF",
       "player_name": "Lamar Stevens",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "Didn't travel for Round 4 after a DNP in Round 3 (hand injury)"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 3-4 (hand injury)"
     },
     {
       "team": "PAR",
@@ -1138,21 +1004,21 @@
       "position": "C",
       "position_raw": "C",
       "player_name": "Kaodirichi Akobundu-Ehiogu",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (coach's decision), does not travel to Barcelona"
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Rounds 1-4 (coach's decision)"
     },
     {
       "team": "ZAL",
       "team_raw": "Zalgiris Kaunas",
       "position": "G",
       "position_raw": "PG",
-      "player_name": "Saben Lee",
-      "status": "game_time",
-      "status_raw": "Game-time",
-      "round": "Round 4",
-      "comment": "DNP in Round 1-3 (hamstring strain)"
+      "player_name": "Deividas Sirvydis",
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
+      "comment": "DNP in Round 4 (coach's decision)"
     },
     {
       "team": "ZAL",
@@ -1160,9 +1026,9 @@
       "position": "G",
       "position_raw": "PG",
       "player_name": "Nigel Williams-Goss",
-      "status": "out",
-      "status_raw": "Out",
-      "round": "Round 4",
+      "status": "uncertain",
+      "status_raw": "Uncertain",
+      "round": "Round 5",
       "comment": "Suffered hamstring injury in Round 1 game"
     }
   ]

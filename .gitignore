@@ -42,3 +42,9 @@ backups/
 _test_*.py
 _scan_*.py
 _write_*.py
+
+# Runtime files (δεν ανεβαίνουν)
+output/.last_runs.json
+app/js/config/*.SAFE
+app/js/config/*.OLD
+app/js/config/*.BEFORE_*

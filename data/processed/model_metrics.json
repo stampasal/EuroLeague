@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T23:49:36.889568",
+  "generated_at": "2026-10-09T20:47:52.784609",
   "model_version": "v4.2",
   "feature_names": [
     "ewma5_pdk",
@@ -29,7 +29,7 @@
   },
   "min_predict_season": 2026,
   "league_mean_pooled": 45.793,
-  "league_avg_dvp": 8.869,
+  "league_avg_dvp": 8.866,
   "per_position": {
     "G": {
       "gb_params": {
@@ -39,17 +39,17 @@
       },
       "weights": {
         "ridge": 0.7,
-        "gb": 0.3,
-        "ma": -0.0
+        "gb": 0.25,
+        "ma": 0.05
       },
-      "n_train": 7789,
-      "n_test": 3339,
-      "mae": 5.846,
-      "rmse": 7.561,
-      "baseline_mae": 7.12,
-      "residual_std": 7.561,
+      "n_train": 7794,
+      "n_test": 3341,
+      "mae": 5.835,
+      "rmse": 7.535,
+      "baseline_mae": 7.108,
+      "residual_std": 7.535,
       "improvement_pct": 17.9,
-      "oof_mae": 5.562
+      "oof_mae": 5.567
     },
     "F": {
       "gb_params": {
@@ -62,14 +62,14 @@
         "gb": 0.4,
         "ma": 0.1
       },
-      "n_train": 6997,
-      "n_test": 2999,
-      "mae": 5.091,
-      "rmse": 6.582,
-      "baseline_mae": 6.39,
-      "residual_std": 6.582,
+      "n_train": 7004,
+      "n_test": 3002,
+      "mae": 5.09,
+      "rmse": 6.578,
+      "baseline_mae": 6.383,
+      "residual_std": 6.578,
       "improvement_pct": 20.3,
-      "oof_mae": 5.085
+      "oof_mae": 5.089
     },
     "C": {
       "gb_params": {
@@ -82,14 +82,14 @@
         "gb": 0.25,
         "ma": 0.15
       },
-      "n_train": 4020,
-      "n_test": 1724,
-      "mae": 5.693,
-      "rmse": 7.325,
+      "n_train": 4023,
+      "n_test": 1725,
+      "mae": 5.692,
+      "rmse": 7.326,
       "baseline_mae": 6.771,
-      "residual_std": 7.325,
+      "residual_std": 7.326,
       "improvement_pct": 15.9,
-      "oof_mae": 5.109
+      "oof_mae": 5.118
     }
   }
 }
